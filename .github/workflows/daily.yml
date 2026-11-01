@@ -3,7 +3,12 @@ name: Daily Short
 on:
   schedule:
     - cron: "0 17 * * *"   # 17:00 UTC = 12:00 Toronto (winter) / 13:00 (summer)
-  workflow_dispatch: {}      # "Run workflow" button for manual tests
+  workflow_dispatch:
+    inputs:
+      render_only:
+        description: "Test: render the video without publishing"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,7 +41,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-        run: python daily.py
+        run: python daily.py ${{ inputs.render_only && '--render-only' || '' }}
       - name: Keep a copy of the video (downloadable 14 days)
         if: always()
         uses: actions/upload-artifact@v4
