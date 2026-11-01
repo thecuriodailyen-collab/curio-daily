@@ -1,0 +1,31 @@
+{
+  "brand": "CURIO DAILY",
+  "tagline": "One fact. Every day.",
+  "handle": "@CurioDailyEn",
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voice_rate": "+8%",
+  "music_volume_db": -24,
+  "youtube_privacy": "public",
+  "youtube_category_id": "27",
+  "graph_api_version": "v24.0",
+  "claude_model": "claude-sonnet-5-5",
+  "base_hashtags": ["#shorts", "#facts", "#didyouknow", "#generalknowledge", "#funfacts"],
+  "colors": {
+    "bg": "#0B0F1A",
+    "text": "#F7F5EF",
+    "accent": "#FFD23F",
+    "muted": "#8A93A6"
+  },
+  "category_colors": {
+    "Space": "#8B7CFF",
+    "Animals": "#3DDC97",
+    "History": "#FF8A3D",
+    "Human Body": "#FF5A6E",
+    "Science": "#34C6F4",
+    "Geography": "#4D8DFF",
+    "Nature": "#7BD34B",
+    "Food": "#FFB23F",
+    "Language": "#F56FD8",
+    "Technology": "#00E0C6"
+  }
+}
