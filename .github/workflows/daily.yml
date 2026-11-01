@@ -2,7 +2,8 @@ name: Daily Short
 
 on:
   schedule:
-    - cron: "0 17 * * *"   # 17:00 UTC = 12:00 Toronto (winter) / 13:00 (summer)
+    - cron: "41 16 * * *"   # ~12:00 Toronto/New York (EST), 1 h later in summer
+    - cron: "41 23 * * *"   # ~19:00 Toronto/New York (EST), evening peak
   workflow_dispatch:
     inputs:
       render_only:
