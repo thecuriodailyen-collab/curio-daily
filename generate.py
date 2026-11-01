@@ -27,7 +27,8 @@ Return ONLY a JSON object with exactly these keys:
   "title": "Catchy title, max 60 characters, no hashtags, no clickbait lies",
   "tags": ["4 lowercase single-word tags"],
   "source": "The reputable source a viewer can check",
-  "emoji": ["5 single emojis that illustrate, in order: the hook, beat 1, beat 2, beat 3, the question"]
+  "emoji": ["5 single emojis that illustrate, in order: the hook, beat 1, beat 2, beat 3, the question"],
+  "footage": ["5 stock-video search queries (2-3 concrete, filmable English words, e.g. 'octopus underwater', 'lightning storm'), in order: hook, beat 1, beat 2, beat 3, question. Each must show what that sentence talks about; no abstract words, no people's names"]
 }}"""
 
 

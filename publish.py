@@ -13,8 +13,8 @@ def build_texts(fact):
     hashtags = " ".join(CFG["base_hashtags"] + tags)
     yt_title = f"{fact['title']} #shorts"[:100]
     body = "\n".join([fact["hook"], "", *fact["beats"], "", f"💬 {fact['question']}", "",
-                      f"Source: {fact['source']}", "", f"{CFG['tagline']} Follow {CFG['handle']} for a new fact every day."])
-    return yt_title, f"{body}\n\n{hashtags}", f"{fact['hook']} 🤯\n\n{fact['question']} 👇\n\nSource: {fact['source']}\n\n{hashtags.replace('#shorts ', '')}"
+                      f"Source: {fact['source']}", *(["Footage: Pexels"] if fact.get("_pexels") else []), "", f"{CFG['tagline']} Follow {CFG['handle']} for a new fact every day."])
+    return yt_title, f"{body}\n\n{hashtags}", f"{fact['hook']} 🤯\n\n{fact['question']} 👇\n\nSource: {fact['source']}{' · Footage: Pexels' if fact.get('_pexels') else ''}\n\n{hashtags.replace('#shorts ', '')}"
 
 
 # ------------------------------------------------------------------ YouTube

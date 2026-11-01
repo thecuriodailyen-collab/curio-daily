@@ -121,6 +121,15 @@ class Scenes:
             s["chunks"] = R.chunk_words(s["words"]) if s["kind"] == "beat" else None
         self.starts = [max(0.0, s["start"] - 0.12) for s in timeline]
         self.starts[0] = 0.0
+        # real stock footage per scene (falls back to the graphic background)
+        import footage
+        ends = self.starts[1:] + [total]
+        durs = [max(0.5, e - s) for s, e in zip(self.starts, ends)]
+        paths = footage.fetch(fact, durs)
+        fact["_pexels"] = any(paths)
+        self.clips = [footage.Clip(p, d) if p else None for p, d in zip(paths, durs)]
+        self.shade = footage.make_shade() if any(self.clips) else None
+        self.cur_clip = None
 
     def scene_at(self, t):
         i = 0
@@ -134,16 +143,25 @@ class Scenes:
         i = self.scene_at(t)
         seg = self.tl[i]
         local = t - self.starts[i]
-        im = self.bg.copy()
-        # moving blobs, side alternates per scene
-        side = self.layout[i]
-        bx = int(W / 2 + side * 260 + 120 * math.sin(t * 0.6)) - 560
-        by = int(620 + 90 * math.cos(t * 0.5)) - 560
-        im.paste(self.blob, (bx, by), self.blob)
-        im.paste(self.blob2, (int(W / 2 - side * 330) - 360, 1500 - 360), self.blob2)
-        # rotating rays behind the visual
-        rays = self.rays.rotate(t * 12 % 360, resample=Image.BILINEAR)
-        im.paste(rays, (W // 2 - rays.width // 2, 640 - rays.height // 2), rays)
+        clip = self.clips[i]
+        if clip is not self.cur_clip and self.cur_clip is not None:
+            self.cur_clip.close()
+        self.cur_clip = clip
+        real = clip.next() if clip else None
+        if real is not None:
+            im = real.copy()
+            im.paste(self.shade, (0, 0), self.shade)
+        else:
+            im = self.bg.copy()
+            # moving blobs, side alternates per scene
+            side = self.layout[i]
+            bx = int(W / 2 + side * 260 + 120 * math.sin(t * 0.6)) - 560
+            by = int(620 + 90 * math.cos(t * 0.5)) - 560
+            im.paste(self.blob, (bx, by), self.blob)
+            im.paste(self.blob2, (int(W / 2 - side * 330) - 360, 1500 - 360), self.blob2)
+            # rotating rays behind the visual
+            rays = self.rays.rotate(t * 12 % 360, resample=Image.BILINEAR)
+            im.paste(rays, (W // 2 - rays.width // 2, 640 - rays.height // 2), rays)
         d = ImageDraw.Draw(im)
 
         kind = seg["kind"]
@@ -152,7 +170,7 @@ class Scenes:
         else:
             if i == self.stat_scene and kind == "beat":
                 self.draw_stat(d, local)
-            else:
+            elif real is None:  # with real footage the video itself is the illustration
                 self.draw_emoji(im, self.emo[i], local, t, big=(kind == "hook"))
             if kind == "hook":
                 self.draw_hook(d, seg, t)
@@ -304,7 +322,8 @@ class Scenes:
             y += lh
 
     def draw_question(self, im, d, seg, local, t):
-        self.draw_emoji(im, self.emo[-1], local, t, big=True)
+        if self.clips[-1] is None:
+            self.draw_emoji(im, self.emo[-1], local, t, big=True)
         y0 = 760
         R.pill(d, W / 2, y0, "COMMENT BELOW", R.font(R.FONT_BOLD, 38), self.cat, R.C_BG, anchor="m")
         fnt = R.font(R.FONT_BLACK, 90)
