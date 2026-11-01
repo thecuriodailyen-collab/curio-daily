@@ -55,12 +55,33 @@ def segments_for(fact):
     return segs
 
 
-async def _tts_segment(text, path):
+VOICE_FALLBACKS = ["en-US-AndrewNeural", "en-US-GuyNeural", "en-US-ChristopherNeural", "en-US-AriaNeural"]
+
+
+def tts(text, path):
+    """Try the configured voice, then fallbacks, with retries."""
+    import time
+    voices = [CFG["voice"]] + [v for v in VOICE_FALLBACKS if v != CFG["voice"]]
+    last = None
+    for attempt in range(3):
+        for v in voices:
+            try:
+                words = asyncio.run(_tts_segment(text, path, v))
+                if os.path.getsize(path) > 0:
+                    return words
+            except Exception as e:  # NoAudioReceived, network hiccups...
+                last = e
+                print(f"TTS failed with {v}: {e}")
+        time.sleep(5 * (attempt + 1))
+    raise RuntimeError(f"All TTS voices failed: {last}")
+
+
+async def _tts_segment(text, path, voice):
     import edge_tts
     try:
-        com = edge_tts.Communicate(text, CFG["voice"], rate=CFG["voice_rate"], boundary="WordBoundary")
+        com = edge_tts.Communicate(text, voice, rate=CFG["voice_rate"], boundary="WordBoundary")
     except TypeError:  # older edge-tts versions
-        com = edge_tts.Communicate(text, CFG["voice"], rate=CFG["voice_rate"])
+        com = edge_tts.Communicate(text, voice, rate=CFG["voice_rate"])
     words = []
     with open(path, "wb") as f:
         async for chunk in com.stream():
@@ -95,7 +116,7 @@ def build_timeline(fact, workdir, voice=True):
     for i, (kind, text) in enumerate(segments_for(fact)):
         if voice:
             mp3 = os.path.join(workdir, f"seg{i}.mp3")
-            words = asyncio.run(_tts_segment(text, mp3))
+            words = tts(text, mp3)
             dur = probe_duration(mp3)
             if not words:  # boundary events missing -> estimate inside real duration
                 est, end = estimate_words(text, 0)
