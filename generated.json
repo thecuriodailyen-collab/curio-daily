@@ -1,0 +1,41 @@
+[
+  {
+    "trend": "Clocks fall back today",
+    "category": "History",
+    "hook": "Clocks fall back today, but time zones were invented by railroads, not government.",
+    "beats": [
+      "Before 1883, every town set its clocks by the sun, so noon changed from town to town.",
+      "On November 18, 1883, US and Canadian railroads reset their clocks to four zones, making a Day of Two Noons.",
+      "Congress only made standard time zones official law in 1918, thirty-five years later."
+    ],
+    "stat": {
+      "big": "1883",
+      "label": "Year railroads created time zones"
+    },
+    "question": "Would you keep the clock change or end it?",
+    "title": "Railroads Invented Your Time Zone, Not the Government",
+    "tags": [
+      "clocks",
+      "history",
+      "timezones",
+      "railroads"
+    ],
+    "source": "Library of Congress, 'The Day of Two Noons' (Business History research guide)",
+    "emoji": [
+      "⏰",
+      "☀️",
+      "🚂",
+      "📜",
+      "🤔"
+    ],
+    "footage": [
+      "alarm clock ticking",
+      "sunrise over town",
+      "steam train railroad",
+      "old clock tower",
+      "wall clock closeup"
+    ],
+    "id": 31,
+    "generated": true
+  }
+]
