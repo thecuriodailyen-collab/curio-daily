@@ -109,6 +109,19 @@ def estimate_words(text, t0):
     return words, t
 
 
+def split_tokens(words):
+    """TTS tokens can contain spaces or be empty: make it one word per entry."""
+    out = []
+    for w, s, e in words:
+        parts = w.split()
+        if not parts:
+            continue
+        step = (e - s) / len(parts)
+        for i, p in enumerate(parts):
+            out.append([p, s + i * step, s + (i + 1) * step])
+    return out
+
+
 def build_timeline(fact, workdir, voice=True):
     """Returns (timeline, total_duration, voice_wav_or_None).
     timeline = list of segments {kind, start, end, words:[[w,s,e],...]}"""
@@ -122,7 +135,7 @@ def build_timeline(fact, workdir, voice=True):
                 est, end = estimate_words(text, 0)
                 k = dur / max(end, 0.01)
                 words = [[w, s * k, e * k] for w, s, e in est]
-            words = [[w, s + t, e + t] for w, s, e in words]
+            words = split_tokens([[w, s + t, e + t] for w, s, e in words])
             parts.append((mp3, t))
             end = t + dur
         else:
@@ -349,7 +362,8 @@ class Renderer:
             lw = d.textlength(" ".join(line), font=fnt)
             x = (W - lw) / 2
             for w in line:
-                active = cur[idx][1] <= t < cur[idx][2] + 0.08
+                cw = cur[min(idx, len(cur) - 1)]
+                active = cw[1] <= t < cw[2] + 0.08
                 col = C_ACCENT if active else C_TEXT
                 # shadow for readability
                 d.text((x + 5, y + 7), w, font=fnt, fill=(0, 0, 0))
