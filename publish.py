@@ -76,3 +76,37 @@ def facebook_upload(video_path, fact):
             break
     print("Facebook: published", vid)
     return vid
+
+
+# ------------------------------------------------------------------ Instagram Reels
+def instagram_upload(video_path, fact):
+    ig, token = os.environ.get("IG_USER_ID"), os.environ.get("FB_PAGE_TOKEN")
+    if not (ig and token):
+        print("Instagram: secrets missing, skipped"); return None
+    v = CFG["graph_api_version"]
+    _, _, caption = build_texts(fact)
+    r = requests.post(f"https://graph.facebook.com/{v}/{ig}/media", timeout=60, data={
+        "media_type": "REELS", "upload_type": "resumable", "caption": caption,
+        "share_to_feed": "true", "access_token": token})
+    r.raise_for_status()
+    cid = r.json()["id"]
+    size = Path(video_path).stat().st_size
+    with open(video_path, "rb") as fh:
+        r = requests.post(f"https://rupload.facebook.com/ig-api-upload/{v}/{cid}", data=fh, timeout=600,
+                          headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(size)})
+    r.raise_for_status()
+    for _ in range(40):
+        time.sleep(15)
+        st = requests.get(f"https://graph.facebook.com/{v}/{cid}", params={"fields": "status_code,status", "access_token": token}, timeout=30).json()
+        code = st.get("status_code")
+        print("Instagram status:", code)
+        if code == "FINISHED":
+            break
+        if code == "ERROR":
+            raise RuntimeError(f"Instagram processing error: {st}")
+    r = requests.post(f"https://graph.facebook.com/{v}/{ig}/media_publish", timeout=60,
+                      data={"creation_id": cid, "access_token": token})
+    r.raise_for_status()
+    mid = r.json()["id"]
+    print("Instagram: published", mid)
+    return mid
