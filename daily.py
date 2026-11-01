@@ -27,10 +27,12 @@ def main():
         fb = facebook_upload(out, fact)
     except Exception as e:
         errors.append(f"Facebook: {e}")
+    if yt is None and fb is None and not errors:
+        print("Nothing was published (secrets missing): fact not marked as posted.")
+        return
     posted = load(STATE, [])
     posted.append({"id": fact["id"], "title": fact["title"], "category": fact["category"],
                    "date": datetime.date.today().isoformat(), "youtube_id": yt, "facebook_id": fb})
-    STATE.parent.mkdir(exist_ok=True)
     STATE.write_text(json.dumps(posted, indent=2, ensure_ascii=False))
     if errors:
         print("\n".join(errors))
