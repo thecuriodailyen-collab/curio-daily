@@ -1,6 +1,6 @@
-"""Real stock footage behind each scene, from the free Pexels API.
+"""Real stock footage behind each scene, from the free Pixabay API (or Pexels).
 
-Needs the PEXELS_API_KEY environment variable. Without it (or if anything fails)
+Needs the PIXABAY_API_KEY (or PEXELS_API_KEY) environment variable. Without it (or if anything fails)
 the video falls back to the animated graphic background, so a missing key never
 breaks the daily post.
 """
@@ -40,9 +40,29 @@ def search(query, key, min_dur, used):
     return None, None
 
 
+def search_pixabay(query, key, min_dur, used):
+    r = requests.get("https://pixabay.com/api/videos/", timeout=20,
+                     params={"key": key, "q": query[:100], "safesearch": "true", "per_page": 20, "video_type": "film"})
+    r.raise_for_status()
+    hits = [h for h in r.json().get("hits", []) if h["id"] not in used]
+    # portrait first, then clips long enough for the scene
+    hits.sort(key=lambda h: (not any(v.get("height", 0) > v.get("width", 1) for v in h["videos"].values()),
+                             h.get("duration", 0) < min_dur))
+    for h in hits:
+        vs = [v for v in h["videos"].values() if v.get("url")]
+        good = sorted([v for v in vs if min(v["width"], v["height"]) >= 720], key=lambda v: v.get("size", 0))
+        pick = (good or sorted(vs, key=lambda v: v.get("width", 0), reverse=True))
+        if pick:
+            return h["id"], pick[0]["url"]
+    return None, None
+
+
 def fetch(fact, durations, workdir=None):
     """Return one local mp4 path (or None) per scene."""
-    key = os.environ.get("PEXELS_API_KEY", "").strip()
+    pix = os.environ.get("PIXABAY_API_KEY", "").strip()
+    key = pix or os.environ.get("PEXELS_API_KEY", "").strip()
+    finder = search_pixabay if pix else search
+    fact["_source"] = "Pixabay" if pix else "Pexels"
     queries = list(fact.get("footage") or [])
     if not key or not queries:
         return [None] * len(durations)
@@ -56,7 +76,7 @@ def fetch(fact, durations, workdir=None):
             if not attempt:
                 continue
             try:
-                vid, link = search(attempt, key, dur, used)
+                vid, link = finder(attempt, key, dur, used)
                 if not vid:
                     continue
                 path = workdir / f"scene{i}_{vid}.mp4"
@@ -66,7 +86,7 @@ def fetch(fact, durations, workdir=None):
                         for chunk in resp.iter_content(1 << 20):
                             fh.write(chunk)
                 used.add(vid)
-                print(f"  footage scene {i}: '{attempt}' -> pexels {vid}")
+                print(f"  footage scene {i}: '{attempt}' -> {fact['_source']} {vid}")
                 break
             except Exception as e:
                 print(f"  footage scene {i}: '{attempt}' failed ({e})")
