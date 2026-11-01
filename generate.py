@@ -26,7 +26,8 @@ Return ONLY a JSON object with exactly these keys:
   "question": "One short question to invite comments, max 10 words.",
   "title": "Catchy title, max 60 characters, no hashtags, no clickbait lies",
   "tags": ["4 lowercase single-word tags"],
-  "source": "The reputable source a viewer can check"
+  "source": "The reputable source a viewer can check",
+  "emoji": ["5 single emojis that illustrate, in order: the hook, beat 1, beat 2, beat 3, the question"]
 }}"""
 
 

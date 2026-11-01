@@ -406,7 +406,10 @@ def render(fact, out_path, voice=True):
         timeline, total, voice_wav = build_timeline(fact, tmp, voice)
         music = os.path.join(tmp, "music.wav")
         make_music(music, total, fact["id"])
-        r = Renderer(fact, timeline, total)
+        import visuals
+        r = visuals.Scenes(fact, timeline, total)
+        sfx = os.path.join(tmp, "sfx.wav")
+        visuals.make_sfx(sfx, total, r.starts, r.starts[r.stat_scene])
         n = int(total * FPS)
         silent = os.path.join(tmp, "video.mp4")
         proc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
@@ -418,12 +421,12 @@ def render(fact, out_path, voice=True):
         proc.stdin.close(); proc.wait()
         mv = CFG["music_volume_db"]
         if voice_wav:
-            fc = f"[2:a]volume={mv}dB[m];[1:a][m]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5[a]"
-            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", voice_wav, "-i", music,
+            fc = f"[2:a]volume={mv}dB[m];[3:a]volume=-9dB[s];[1:a][m][s]amix=inputs=3:normalize=0,loudnorm=I=-14:TP=-1.5[a]"
+            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", voice_wav, "-i", music, "-i", sfx,
                    "-filter_complex", fc, "-map", "0:v", "-map", "[a]"]
         else:
-            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", music,
-                   "-filter_complex", f"[1:a]volume={mv + 12}dB[a]", "-map", "0:v", "-map", "[a]"]
+            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", music, "-i", sfx,
+                   "-filter_complex", f"[1:a]volume={mv + 12}dB[m];[2:a]volume=-9dB[s];[m][s]amix=inputs=2:normalize=0[a]", "-map", "0:v", "-map", "[a]"]
         subprocess.run(cmd + ["-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
                               "-movflags", "+faststart", str(out_path)], check=True)
     return total

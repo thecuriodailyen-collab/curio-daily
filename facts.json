@@ -1,302 +1,902 @@
 [
   {
-    "id": 1, "category": "Space",
+    "id": 1,
+    "category": "Space",
     "hook": "A day on Venus is longer than its entire year.",
-    "beats": ["Venus spins so slowly that one full rotation takes 243 Earth days.", "But it only needs 225 days to go around the Sun.", "So a single Venus day outlasts a whole Venus year."],
-    "stat": {"big": "243", "label": "Earth days for one spin"},
+    "beats": [
+      "Venus spins so slowly that one full rotation takes 243 Earth days.",
+      "But it only needs 225 days to go around the Sun.",
+      "So a single Venus day outlasts a whole Venus year."
+    ],
+    "stat": {
+      "big": "243",
+      "label": "Earth days for one spin"
+    },
     "question": "Would you survive a birthday that comes before sunrise?",
     "title": "A Day on Venus Is Longer Than Its Year",
-    "tags": ["space", "venus", "planets", "astronomy"],
-    "source": "NASA Science, Venus facts"
+    "tags": [
+      "space",
+      "venus",
+      "planets",
+      "astronomy"
+    ],
+    "source": "NASA Science, Venus facts",
+    "emoji": [
+      "🪐",
+      "🌀",
+      "☀️",
+      "🎂",
+      "🤔"
+    ]
   },
   {
-    "id": 2, "category": "Animals",
+    "id": 2,
+    "category": "Animals",
     "hook": "Octopuses have three hearts, and their blood is blue.",
-    "beats": ["Two hearts pump blood through the gills, and one pumps it to the rest of the body.", "Their blood uses copper instead of iron to carry oxygen, which turns it blue.", "And when an octopus swims, the main heart actually stops beating."],
-    "stat": {"big": "3", "label": "hearts in one octopus"},
+    "beats": [
+      "Two hearts pump blood through the gills, and one pumps it to the rest of the body.",
+      "Their blood uses copper instead of iron to carry oxygen, which turns it blue.",
+      "And when an octopus swims, the main heart actually stops beating."
+    ],
+    "stat": {
+      "big": "3",
+      "label": "hearts in one octopus"
+    },
     "question": "Which animal fact blew your mind the most this week?",
     "title": "Octopuses Have 3 Hearts and Blue Blood",
-    "tags": ["animals", "octopus", "ocean", "biology"],
-    "source": "Smithsonian Ocean / NOAA"
+    "tags": [
+      "animals",
+      "octopus",
+      "ocean",
+      "biology"
+    ],
+    "source": "Smithsonian Ocean / NOAA",
+    "emoji": [
+      "🐙",
+      "❤️",
+      "🩸",
+      "🏊",
+      "🤯"
+    ]
   },
   {
-    "id": 3, "category": "History",
+    "id": 3,
+    "category": "History",
     "hook": "Cleopatra lived closer to the Moon landing than to the building of the Great Pyramid.",
-    "beats": ["The Great Pyramid of Giza was finished around 2560 BC.", "Cleopatra was born in 69 BC, about 2,500 years later.", "The Moon landing came in 1969, only about 2,000 years after her."],
-    "stat": {"big": "2,500", "label": "years from pyramid to Cleopatra"},
+    "beats": [
+      "The Great Pyramid of Giza was finished around 2560 BC.",
+      "Cleopatra was born in 69 BC, about 2,500 years later.",
+      "The Moon landing came in 1969, only about 2,000 years after her."
+    ],
+    "stat": {
+      "big": "2,500",
+      "label": "years from pyramid to Cleopatra"
+    },
     "question": "What other history timeline feels completely wrong?",
     "title": "Cleopatra Is Closer to Us Than to the Pyramids",
-    "tags": ["history", "egypt", "cleopatra", "pyramids"],
-    "source": "Encyclopaedia Britannica"
+    "tags": [
+      "history",
+      "egypt",
+      "cleopatra",
+      "pyramids"
+    ],
+    "source": "Encyclopaedia Britannica",
+    "emoji": [
+      "👑",
+      "🏜️",
+      "👑",
+      "🚀",
+      "🤔"
+    ]
   },
   {
-    "id": 4, "category": "Human Body",
+    "id": 4,
+    "category": "Human Body",
     "hook": "You are taller in the morning than at night.",
-    "beats": ["The discs between your vertebrae are like little cushions full of fluid.", "All day, gravity squeezes them and they slowly flatten.", "While you sleep they soak back up, so you wake up around one centimeter taller."],
-    "stat": {"big": "~1 cm", "label": "height you lose by evening"},
+    "beats": [
+      "The discs between your vertebrae are like little cushions full of fluid.",
+      "All day, gravity squeezes them and they slowly flatten.",
+      "While you sleep they soak back up, so you wake up around one centimeter taller."
+    ],
+    "stat": {
+      "big": "~1 cm",
+      "label": "height you lose by evening"
+    },
     "question": "Are you measuring yourself tomorrow morning?",
     "title": "You're Taller in the Morning. Here's Why",
-    "tags": ["humanbody", "science", "health", "didyouknow"],
-    "source": "Healthline / spine research"
+    "tags": [
+      "humanbody",
+      "science",
+      "health",
+      "didyouknow"
+    ],
+    "source": "Healthline / spine research",
+    "emoji": [
+      "📏",
+      "🦴",
+      "🌍",
+      "😴",
+      "📏"
+    ]
   },
   {
-    "id": 5, "category": "Science",
+    "id": 5,
+    "category": "Science",
     "hook": "Archaeologists found honey in ancient Egyptian tombs, and it was still edible.",
-    "beats": ["Honey is very low in water and very acidic, so bacteria can't survive in it.", "Bees also add an enzyme that produces tiny amounts of hydrogen peroxide.", "Sealed properly, honey can last for thousands of years."],
-    "stat": {"big": "3,000", "label": "years old, still edible"},
+    "beats": [
+      "Honey is very low in water and very acidic, so bacteria can't survive in it.",
+      "Bees also add an enzyme that produces tiny amounts of hydrogen peroxide.",
+      "Sealed properly, honey can last for thousands of years."
+    ],
+    "stat": {
+      "big": "3,000",
+      "label": "years old, still edible"
+    },
     "question": "Would you taste 3,000 year old honey?",
     "title": "Honey That Never Goes Bad",
-    "tags": ["science", "food", "egypt", "history"],
-    "source": "Smithsonian Magazine"
+    "tags": [
+      "science",
+      "food",
+      "egypt",
+      "history"
+    ],
+    "source": "Smithsonian Magazine",
+    "emoji": [
+      "🍯",
+      "🦠",
+      "🐝",
+      "🏺",
+      "😋"
+    ]
   },
   {
-    "id": 6, "category": "Space",
+    "id": 6,
+    "category": "Space",
     "hook": "A teaspoon of a neutron star would weigh about a billion tons.",
-    "beats": ["A neutron star is what's left after a giant star collapses.", "It packs more mass than our Sun into a ball the size of a city.", "Its matter is so dense that a single spoonful outweighs a mountain."],
-    "stat": {"big": "1 billion", "label": "tons per teaspoon"},
+    "beats": [
+      "A neutron star is what's left after a giant star collapses.",
+      "It packs more mass than our Sun into a ball the size of a city.",
+      "Its matter is so dense that a single spoonful outweighs a mountain."
+    ],
+    "stat": {
+      "big": "1 billion",
+      "label": "tons per teaspoon"
+    },
     "question": "What's the craziest thing you know about space?",
     "title": "The Heaviest Teaspoon in the Universe",
-    "tags": ["space", "neutronstar", "astronomy", "physics"],
-    "source": "NASA Goddard"
+    "tags": [
+      "space",
+      "neutronstar",
+      "astronomy",
+      "physics"
+    ],
+    "source": "NASA Goddard",
+    "emoji": [
+      "⭐",
+      "💥",
+      "🏙️",
+      "⛰️",
+      "🌌"
+    ]
   },
   {
-    "id": 7, "category": "Animals",
+    "id": 7,
+    "category": "Animals",
     "hook": "Wombats are the only animals that poop cubes.",
-    "beats": ["The cubes form inside their intestines, thanks to walls with soft and stiff sections.", "Wombats stack them on rocks and logs to mark their territory.", "The flat sides stop the cubes from rolling away."],
-    "stat": {"big": "100", "label": "cubes per night"},
+    "beats": [
+      "The cubes form inside their intestines, thanks to walls with soft and stiff sections.",
+      "Wombats stack them on rocks and logs to mark their territory.",
+      "The flat sides stop the cubes from rolling away."
+    ],
+    "stat": {
+      "big": "100",
+      "label": "cubes per night"
+    },
     "question": "Did you know this, or is this news to you?",
     "title": "Why Wombat Poop Is Cube-Shaped",
-    "tags": ["animals", "wombat", "australia", "nature"],
-    "source": "Soft Matter journal, 2021"
+    "tags": [
+      "animals",
+      "wombat",
+      "australia",
+      "nature"
+    ],
+    "source": "Soft Matter journal, 2021",
+    "emoji": [
+      "🐨",
+      "🧱",
+      "🪨",
+      "🎲",
+      "😂"
+    ]
   },
   {
-    "id": 8, "category": "Geography",
+    "id": 8,
+    "category": "Geography",
     "hook": "Canada has more lakes than the rest of the world combined.",
-    "beats": ["Ice sheets scraped the land during the last ice age and left millions of hollows.", "When the ice melted, those hollows filled with water.", "Today Canada holds over half of all the lakes on Earth."],
-    "stat": {"big": "60%", "label": "of the world's lakes"},
+    "beats": [
+      "Ice sheets scraped the land during the last ice age and left millions of hollows.",
+      "When the ice melted, those hollows filled with water.",
+      "Today Canada holds over half of all the lakes on Earth."
+    ],
+    "stat": {
+      "big": "60%",
+      "label": "of the world's lakes"
+    },
     "question": "Which country should I cover next?",
     "title": "Canada Has More Lakes Than Everyone Else",
-    "tags": ["geography", "canada", "lakes", "earth"],
-    "source": "Natural Resources Canada"
+    "tags": [
+      "geography",
+      "canada",
+      "lakes",
+      "earth"
+    ],
+    "source": "Natural Resources Canada",
+    "emoji": [
+      "🍁",
+      "🧊",
+      "💧",
+      "🗺️",
+      "🌎"
+    ]
   },
   {
-    "id": 9, "category": "History",
+    "id": 9,
+    "category": "History",
     "hook": "Oxford University is older than the Aztec Empire.",
-    "beats": ["Teaching was already happening at Oxford by 1096.", "The Aztec city of Tenochtitlan wasn't founded until 1325.", "So students were studying at Oxford for more than two centuries before it existed."],
-    "stat": {"big": "1096", "label": "teaching begins at Oxford"},
+    "beats": [
+      "Teaching was already happening at Oxford by 1096.",
+      "The Aztec city of Tenochtitlan wasn't founded until 1325.",
+      "So students were studying at Oxford for more than two centuries before it existed."
+    ],
+    "stat": {
+      "big": "1096",
+      "label": "teaching begins at Oxford"
+    },
     "question": "What's the oldest place you've ever visited?",
     "title": "Oxford Is Older Than the Aztecs",
-    "tags": ["history", "oxford", "aztec", "facts"],
-    "source": "University of Oxford"
+    "tags": [
+      "history",
+      "oxford",
+      "aztec",
+      "facts"
+    ],
+    "source": "University of Oxford",
+    "emoji": [
+      "🎓",
+      "📜",
+      "🏛️",
+      "📚",
+      "🗺️"
+    ]
   },
   {
-    "id": 10, "category": "Science",
+    "id": 10,
+    "category": "Science",
     "hook": "Bananas are slightly radioactive.",
-    "beats": ["Bananas are rich in potassium, and a tiny part of natural potassium is radioactive.", "That isotope is called potassium-40.", "But you'd need to eat millions of bananas at once for it to hurt you."],
-    "stat": {"big": "K-40", "label": "the radioactive isotope"},
+    "beats": [
+      "Bananas are rich in potassium, and a tiny part of natural potassium is radioactive.",
+      "That isotope is called potassium-40.",
+      "But you'd need to eat millions of bananas at once for it to hurt you."
+    ],
+    "stat": {
+      "big": "K-40",
+      "label": "the radioactive isotope"
+    },
     "question": "Still eating bananas after this?",
     "title": "Your Banana Is Radioactive",
-    "tags": ["science", "chemistry", "food", "physics"],
-    "source": "US Environmental Protection Agency"
+    "tags": [
+      "science",
+      "chemistry",
+      "food",
+      "physics"
+    ],
+    "source": "US Environmental Protection Agency",
+    "emoji": [
+      "🍌",
+      "⚛️",
+      "🧪",
+      "🍌",
+      "😅"
+    ]
   },
   {
-    "id": 11, "category": "Animals",
+    "id": 11,
+    "category": "Animals",
     "hook": "Sea otters hold hands while they sleep.",
-    "beats": ["Otters sleep floating on their backs on the water.", "To avoid drifting apart, they link paws or wrap themselves in kelp.", "A floating group of otters is called a raft."],
-    "stat": {"big": "Raft", "label": "a group of floating otters"},
+    "beats": [
+      "Otters sleep floating on their backs on the water.",
+      "To avoid drifting apart, they link paws or wrap themselves in kelp.",
+      "A floating group of otters is called a raft."
+    ],
+    "stat": {
+      "big": "Raft",
+      "label": "a group of floating otters"
+    },
     "question": "Tag someone you'd hold hands with.",
     "title": "Sea Otters Hold Hands When They Sleep",
-    "tags": ["animals", "otters", "cute", "ocean"],
-    "source": "Monterey Bay Aquarium"
+    "tags": [
+      "animals",
+      "otters",
+      "cute",
+      "ocean"
+    ],
+    "source": "Monterey Bay Aquarium",
+    "emoji": [
+      "🦦",
+      "🌊",
+      "🤝",
+      "🛶",
+      "🥰"
+    ]
   },
   {
-    "id": 12, "category": "Space",
+    "id": 12,
+    "category": "Space",
     "hook": "The footprints on the Moon could last for millions of years.",
-    "beats": ["The Moon has almost no atmosphere, so there's no wind or rain.", "Nothing is there to wash or blow the prints away.", "Only tiny meteorite impacts slowly wear them down."],
-    "stat": {"big": "1969", "label": "first footprint on the Moon"},
+    "beats": [
+      "The Moon has almost no atmosphere, so there's no wind or rain.",
+      "Nothing is there to wash or blow the prints away.",
+      "Only tiny meteorite impacts slowly wear them down."
+    ],
+    "stat": {
+      "big": "1969",
+      "label": "first footprint on the Moon"
+    },
     "question": "Would you leave your footprint on the Moon?",
     "title": "Moon Footprints Last Millions of Years",
-    "tags": ["space", "moon", "apollo", "nasa"],
-    "source": "NASA"
+    "tags": [
+      "space",
+      "moon",
+      "apollo",
+      "nasa"
+    ],
+    "source": "NASA",
+    "emoji": [
+      "👣",
+      "🌑",
+      "🌬️",
+      "☄️",
+      "🚀"
+    ]
   },
   {
-    "id": 13, "category": "Human Body",
+    "id": 13,
+    "category": "Human Body",
     "hook": "Babies are born with about 300 bones, but adults only have 206.",
-    "beats": ["Many of a newborn's bones are partly made of soft cartilage.", "As children grow, several of these bones fuse together.", "The skull alone starts as separate plates that join over time."],
-    "stat": {"big": "300", "label": "bones at birth"},
+    "beats": [
+      "Many of a newborn's bones are partly made of soft cartilage.",
+      "As children grow, several of these bones fuse together.",
+      "The skull alone starts as separate plates that join over time."
+    ],
+    "stat": {
+      "big": "300",
+      "label": "bones at birth"
+    },
     "question": "What body fact should I explain next?",
     "title": "Where Do Your Missing Bones Go?",
-    "tags": ["humanbody", "bones", "science", "biology"],
-    "source": "Nemours KidsHealth"
+    "tags": [
+      "humanbody",
+      "bones",
+      "science",
+      "biology"
+    ],
+    "source": "Nemours KidsHealth",
+    "emoji": [
+      "👶",
+      "🦴",
+      "🧒",
+      "💀",
+      "🧠"
+    ]
   },
   {
-    "id": 14, "category": "Science",
+    "id": 14,
+    "category": "Science",
     "hook": "Lightning is about five times hotter than the surface of the Sun.",
-    "beats": ["A lightning bolt can heat the air around it to about 30,000 Kelvin.", "The surface of the Sun is only around 5,800 Kelvin.", "That sudden heat makes the air explode outward, and that's the thunder you hear."],
-    "stat": {"big": "30,000 K", "label": "temperature of lightning"},
+    "beats": [
+      "A lightning bolt can heat the air around it to about 30,000 Kelvin.",
+      "The surface of the Sun is only around 5,800 Kelvin.",
+      "That sudden heat makes the air explode outward, and that's the thunder you hear."
+    ],
+    "stat": {
+      "big": "30,000 K",
+      "label": "temperature of lightning"
+    },
     "question": "Are you scared of thunderstorms?",
     "title": "Lightning Is Hotter Than the Sun",
-    "tags": ["science", "weather", "lightning", "physics"],
-    "source": "NOAA National Weather Service"
+    "tags": [
+      "science",
+      "weather",
+      "lightning",
+      "physics"
+    ],
+    "source": "NOAA National Weather Service",
+    "emoji": [
+      "⚡",
+      "🔥",
+      "☀️",
+      "💥",
+      "⛈️"
+    ]
   },
   {
-    "id": 15, "category": "Animals",
+    "id": 15,
+    "category": "Animals",
     "hook": "A group of flamingos is called a flamboyance.",
-    "beats": ["Flamingos are born grey, not pink.", "Their color comes from pigments in the shrimp and algae they eat.", "Stop eating them, and a flamingo slowly fades back to pale."],
-    "stat": {"big": "Grey", "label": "the color of baby flamingos"},
+    "beats": [
+      "Flamingos are born grey, not pink.",
+      "Their color comes from pigments in the shrimp and algae they eat.",
+      "Stop eating them, and a flamingo slowly fades back to pale."
+    ],
+    "stat": {
+      "big": "Grey",
+      "label": "the color of baby flamingos"
+    },
     "question": "What's your favorite weird animal group name?",
     "title": "Flamingos Aren't Born Pink",
-    "tags": ["animals", "flamingo", "birds", "nature"],
-    "source": "National Geographic"
+    "tags": [
+      "animals",
+      "flamingo",
+      "birds",
+      "nature"
+    ],
+    "source": "National Geographic",
+    "emoji": [
+      "🦩",
+      "🐣",
+      "🦐",
+      "🎨",
+      "😄"
+    ]
   },
   {
-    "id": 16, "category": "History",
+    "id": 16,
+    "category": "History",
     "hook": "The shortest war in history lasted about 38 minutes.",
-    "beats": ["In 1896, Britain and the Sultanate of Zanzibar went to war.", "British ships opened fire on the palace in the morning.", "Less than an hour later, the fighting was over."],
-    "stat": {"big": "38 min", "label": "the Anglo-Zanzibar War"},
+    "beats": [
+      "In 1896, Britain and the Sultanate of Zanzibar went to war.",
+      "British ships opened fire on the palace in the morning.",
+      "Less than an hour later, the fighting was over."
+    ],
+    "stat": {
+      "big": "38 min",
+      "label": "the Anglo-Zanzibar War"
+    },
     "question": "What other weird war fact do you know?",
     "title": "The War That Lasted 38 Minutes",
-    "tags": ["history", "war", "zanzibar", "facts"],
-    "source": "Encyclopaedia Britannica"
+    "tags": [
+      "history",
+      "war",
+      "zanzibar",
+      "facts"
+    ],
+    "source": "Encyclopaedia Britannica",
+    "emoji": [
+      "⚔️",
+      "🇬🇧",
+      "🚢",
+      "⏱️",
+      "🤔"
+    ]
   },
   {
-    "id": 17, "category": "Geography",
+    "id": 17,
+    "category": "Geography",
     "hook": "Russia is so wide it covers eleven time zones.",
-    "beats": ["It stretches from Europe all the way to the Pacific Ocean.", "When it's evening in Moscow, it's already the next morning in the far east.", "Crossing it by train takes about a week."],
-    "stat": {"big": "11", "label": "time zones in one country"},
+    "beats": [
+      "It stretches from Europe all the way to the Pacific Ocean.",
+      "When it's evening in Moscow, it's already the next morning in the far east.",
+      "Crossing it by train takes about a week."
+    ],
+    "stat": {
+      "big": "11",
+      "label": "time zones in one country"
+    },
     "question": "How many time zones does your country have?",
     "title": "One Country, 11 Time Zones",
-    "tags": ["geography", "russia", "travel", "maps"],
-    "source": "Encyclopaedia Britannica"
+    "tags": [
+      "geography",
+      "russia",
+      "travel",
+      "maps"
+    ],
+    "source": "Encyclopaedia Britannica",
+    "emoji": [
+      "🇷🇺",
+      "🌍",
+      "🌙",
+      "🚂",
+      "🕐"
+    ]
   },
   {
-    "id": 18, "category": "Animals",
+    "id": 18,
+    "category": "Animals",
     "hook": "Sharks existed before trees.",
-    "beats": ["The first sharks appeared around 450 million years ago.", "The first true trees only showed up about 385 million years ago.", "Sharks have survived five mass extinctions since then."],
-    "stat": {"big": "450M", "label": "years of sharks"},
+    "beats": [
+      "The first sharks appeared around 450 million years ago.",
+      "The first true trees only showed up about 385 million years ago.",
+      "Sharks have survived five mass extinctions since then."
+    ],
+    "stat": {
+      "big": "450M",
+      "label": "years of sharks"
+    },
     "question": "What's older than you think?",
     "title": "Sharks Are Older Than Trees",
-    "tags": ["animals", "sharks", "evolution", "ocean"],
-    "source": "Natural History Museum, London"
+    "tags": [
+      "animals",
+      "sharks",
+      "evolution",
+      "ocean"
+    ],
+    "source": "Natural History Museum, London",
+    "emoji": [
+      "🦈",
+      "🦈",
+      "🌳",
+      "☄️",
+      "🤯"
+    ]
   },
   {
-    "id": 19, "category": "Space",
+    "id": 19,
+    "category": "Space",
     "hook": "Saturn is so light it would float in a big enough bathtub.",
-    "beats": ["Saturn is mostly made of hydrogen and helium gas.", "Its average density is lower than the density of water.", "It's the only planet in our solar system that would float."],
-    "stat": {"big": "0.69", "label": "density vs water's 1.0"},
+    "beats": [
+      "Saturn is mostly made of hydrogen and helium gas.",
+      "Its average density is lower than the density of water.",
+      "It's the only planet in our solar system that would float."
+    ],
+    "stat": {
+      "big": "0.69",
+      "label": "density vs water's 1.0"
+    },
     "question": "Which planet is your favorite?",
     "title": "Saturn Would Float in Water",
-    "tags": ["space", "saturn", "planets", "astronomy"],
-    "source": "NASA Science, Saturn facts"
+    "tags": [
+      "space",
+      "saturn",
+      "planets",
+      "astronomy"
+    ],
+    "source": "NASA Science, Saturn facts",
+    "emoji": [
+      "🪐",
+      "☁️",
+      "💧",
+      "🛁",
+      "🔭"
+    ]
   },
   {
-    "id": 20, "category": "Food",
+    "id": 20,
+    "category": "Food",
     "hook": "Peanuts are not actually nuts.",
-    "beats": ["Peanuts are legumes, like beans, peas and lentils.", "They grow underground, not on trees.", "Meanwhile, almonds and cashews aren't true nuts either."],
-    "stat": {"big": "Legume", "label": "what a peanut really is"},
+    "beats": [
+      "Peanuts are legumes, like beans, peas and lentils.",
+      "They grow underground, not on trees.",
+      "Meanwhile, almonds and cashews aren't true nuts either."
+    ],
+    "stat": {
+      "big": "Legume",
+      "label": "what a peanut really is"
+    },
     "question": "What food name has lied to you the most?",
     "title": "Peanuts Aren't Nuts",
-    "tags": ["food", "science", "plants", "didyouknow"],
-    "source": "USDA"
+    "tags": [
+      "food",
+      "science",
+      "plants",
+      "didyouknow"
+    ],
+    "source": "USDA",
+    "emoji": [
+      "🥜",
+      "🫘",
+      "🌱",
+      "🌰",
+      "🍽️"
+    ]
   },
   {
-    "id": 21, "category": "Language",
+    "id": 21,
+    "category": "Language",
     "hook": "The word run has over 600 different meanings.",
-    "beats": ["The Oxford English Dictionary lists 645 senses for the verb run.", "You can run a race, run a company, or have your nose run.", "It overtook set as the word with the most meanings."],
-    "stat": {"big": "645", "label": "meanings of 'run'"},
+    "beats": [
+      "The Oxford English Dictionary lists 645 senses for the verb run.",
+      "You can run a race, run a company, or have your nose run.",
+      "It overtook set as the word with the most meanings."
+    ],
+    "stat": {
+      "big": "645",
+      "label": "meanings of 'run'"
+    },
     "question": "What's the weirdest English word you know?",
     "title": "The Most Complicated Word in English",
-    "tags": ["english", "language", "words", "learnenglish"],
-    "source": "Oxford English Dictionary"
+    "tags": [
+      "english",
+      "language",
+      "words",
+      "learnenglish"
+    ],
+    "source": "Oxford English Dictionary",
+    "emoji": [
+      "🏃",
+      "📖",
+      "🏁",
+      "🏆",
+      "🗣️"
+    ]
   },
   {
-    "id": 22, "category": "Human Body",
+    "id": 22,
+    "category": "Human Body",
     "hook": "Your heart beats about one hundred thousand times every single day.",
-    "beats": ["That's more than 35 million beats every year.", "Over a lifetime, it adds up to about three billion beats.", "And it does all of this without you ever thinking about it."],
-    "stat": {"big": "100,000", "label": "heartbeats per day"},
+    "beats": [
+      "That's more than 35 million beats every year.",
+      "Over a lifetime, it adds up to about three billion beats.",
+      "And it does all of this without you ever thinking about it."
+    ],
+    "stat": {
+      "big": "100,000",
+      "label": "heartbeats per day"
+    },
     "question": "Put your hand on your chest. Feel it?",
     "title": "Your Heart's Daily Workout",
-    "tags": ["humanbody", "heart", "health", "science"],
-    "source": "American Heart Association"
+    "tags": [
+      "humanbody",
+      "heart",
+      "health",
+      "science"
+    ],
+    "source": "American Heart Association",
+    "emoji": [
+      "❤️",
+      "📅",
+      "⏳",
+      "🫀",
+      "🤚"
+    ]
   },
   {
-    "id": 23, "category": "History",
+    "id": 23,
+    "category": "History",
     "hook": "Napoleon wasn't actually short.",
-    "beats": ["He was around five foot seven, about average for a Frenchman of his time.", "The confusion came from French inches being longer than English inches.", "British cartoons mocking him as tiny did the rest."],
-    "stat": {"big": "1.70 m", "label": "Napoleon's real height"},
+    "beats": [
+      "He was around five foot seven, about average for a Frenchman of his time.",
+      "The confusion came from French inches being longer than English inches.",
+      "British cartoons mocking him as tiny did the rest."
+    ],
+    "stat": {
+      "big": "1.70 m",
+      "label": "Napoleon's real height"
+    },
     "question": "What other history myth should I bust?",
     "title": "The Napoleon Height Myth",
-    "tags": ["history", "napoleon", "myths", "france"],
-    "source": "Encyclopaedia Britannica"
+    "tags": [
+      "history",
+      "napoleon",
+      "myths",
+      "france"
+    ],
+    "source": "Encyclopaedia Britannica",
+    "emoji": [
+      "🎩",
+      "📏",
+      "📐",
+      "🖼️",
+      "🤔"
+    ]
   },
   {
-    "id": 24, "category": "Nature",
+    "id": 24,
+    "category": "Nature",
     "hook": "There are more trees on Earth than stars in our galaxy.",
-    "beats": ["Scientists estimate there are about three trillion trees on our planet.", "The Milky Way has roughly one hundred to four hundred billion stars.", "That's several trees for every single star."],
-    "stat": {"big": "3 trillion", "label": "trees on Earth"},
+    "beats": [
+      "Scientists estimate there are about three trillion trees on our planet.",
+      "The Milky Way has roughly one hundred to four hundred billion stars.",
+      "That's several trees for every single star."
+    ],
+    "stat": {
+      "big": "3 trillion",
+      "label": "trees on Earth"
+    },
     "question": "Did you expect that?",
     "title": "More Trees Than Stars",
-    "tags": ["nature", "trees", "space", "earth"],
-    "source": "Nature, 2015 (Crowther et al.)"
+    "tags": [
+      "nature",
+      "trees",
+      "space",
+      "earth"
+    ],
+    "source": "Nature, 2015 (Crowther et al.)",
+    "emoji": [
+      "🌳",
+      "🌲",
+      "🌌",
+      "⭐",
+      "😲"
+    ]
   },
   {
-    "id": 25, "category": "Animals",
+    "id": 25,
+    "category": "Animals",
     "hook": "Koalas have fingerprints almost identical to ours.",
-    "beats": ["Under a microscope, they show the same loops and whorls as human prints.", "Even experts have trouble telling them apart.", "Koalas evolved them on their own, probably to grip branches."],
-    "stat": {"big": "Same", "label": "loops and whorls as humans"},
+    "beats": [
+      "Under a microscope, they show the same loops and whorls as human prints.",
+      "Even experts have trouble telling them apart.",
+      "Koalas evolved them on their own, probably to grip branches."
+    ],
+    "stat": {
+      "big": "Same",
+      "label": "loops and whorls as humans"
+    },
     "question": "Would a koala get away with a crime?",
     "title": "Koalas Have Human Fingerprints",
-    "tags": ["animals", "koala", "australia", "science"],
-    "source": "University of Adelaide study"
+    "tags": [
+      "animals",
+      "koala",
+      "australia",
+      "science"
+    ],
+    "source": "University of Adelaide study",
+    "emoji": [
+      "🐨",
+      "🔍",
+      "🕵️",
+      "🌿",
+      "🚔"
+    ]
   },
   {
-    "id": 26, "category": "Space",
+    "id": 26,
+    "category": "Space",
     "hook": "About 1.3 million Earths could fit inside the Sun.",
-    "beats": ["The Sun is about 109 times wider than Earth.", "It holds more than 99 percent of all the mass in our solar system.", "And it's still only a medium sized star."],
-    "stat": {"big": "1.3M", "label": "Earths inside the Sun"},
+    "beats": [
+      "The Sun is about 109 times wider than Earth.",
+      "It holds more than 99 percent of all the mass in our solar system.",
+      "And it's still only a medium sized star."
+    ],
+    "stat": {
+      "big": "1.3M",
+      "label": "Earths inside the Sun"
+    },
     "question": "What space fact should I cover next?",
     "title": "How Big Is the Sun, Really?",
-    "tags": ["space", "sun", "astronomy", "planets"],
-    "source": "NASA Science, Sun facts"
+    "tags": [
+      "space",
+      "sun",
+      "astronomy",
+      "planets"
+    ],
+    "source": "NASA Science, Sun facts",
+    "emoji": [
+      "☀️",
+      "📏",
+      "⚖️",
+      "⭐",
+      "🔭"
+    ]
   },
   {
-    "id": 27, "category": "Science",
+    "id": 27,
+    "category": "Science",
     "hook": "Water can boil and freeze at the same time.",
-    "beats": ["It happens at a special point called the triple point.", "At just the right temperature and very low pressure, water is solid, liquid and gas at once.", "Scientists even used it to define temperature scales."],
-    "stat": {"big": "0.01°C", "label": "water's triple point"},
+    "beats": [
+      "It happens at a special point called the triple point.",
+      "At just the right temperature and very low pressure, water is solid, liquid and gas at once.",
+      "Scientists even used it to define temperature scales."
+    ],
+    "stat": {
+      "big": "0.01°C",
+      "label": "water's triple point"
+    },
     "question": "Did your science teacher ever show you this?",
     "title": "Water That Boils and Freezes at Once",
-    "tags": ["science", "physics", "water", "chemistry"],
-    "source": "NIST"
+    "tags": [
+      "science",
+      "physics",
+      "water",
+      "chemistry"
+    ],
+    "source": "NIST",
+    "emoji": [
+      "💧",
+      "🧊",
+      "🌡️",
+      "🔬",
+      "👩‍🏫"
+    ]
   },
   {
-    "id": 28, "category": "Geography",
+    "id": 28,
+    "category": "Geography",
     "hook": "Australia is wider than the Moon.",
-    "beats": ["The Moon is about 3,400 kilometers across.", "Australia stretches about 4,000 kilometers from east to west.", "So the whole Moon could fit inside Australia's width."],
-    "stat": {"big": "4,000 km", "label": "width of Australia"},
+    "beats": [
+      "The Moon is about 3,400 kilometers across.",
+      "Australia stretches about 4,000 kilometers from east to west.",
+      "So the whole Moon could fit inside Australia's width."
+    ],
+    "stat": {
+      "big": "4,000 km",
+      "label": "width of Australia"
+    },
     "question": "Have you ever been to Australia?",
     "title": "Australia Is Wider Than the Moon",
-    "tags": ["geography", "australia", "moon", "maps"],
-    "source": "Geoscience Australia / NASA"
+    "tags": [
+      "geography",
+      "australia",
+      "moon",
+      "maps"
+    ],
+    "source": "Geoscience Australia / NASA",
+    "emoji": [
+      "🦘",
+      "🌕",
+      "📏",
+      "🌕",
+      "✈️"
+    ]
   },
   {
-    "id": 29, "category": "Animals",
+    "id": 29,
+    "category": "Animals",
     "hook": "Hummingbirds are the only birds that can fly backwards.",
-    "beats": ["Their wings rotate in a figure eight, like tiny propellers.", "Some species flap more than fifty times every second.", "They can hover, fly sideways, and even fly upside down for a moment."],
-    "stat": {"big": "50+", "label": "wing beats per second"},
+    "beats": [
+      "Their wings rotate in a figure eight, like tiny propellers.",
+      "Some species flap more than fifty times every second.",
+      "They can hover, fly sideways, and even fly upside down for a moment."
+    ],
+    "stat": {
+      "big": "50+",
+      "label": "wing beats per second"
+    },
     "question": "Which bird should I talk about next?",
     "title": "The Bird That Flies Backwards",
-    "tags": ["animals", "birds", "hummingbird", "nature"],
-    "source": "Smithsonian's National Zoo"
+    "tags": [
+      "animals",
+      "birds",
+      "hummingbird",
+      "nature"
+    ],
+    "source": "Smithsonian's National Zoo",
+    "emoji": [
+      "🐦",
+      "♾️",
+      "⚡",
+      "🔄",
+      "🐦"
+    ]
   },
   {
-    "id": 30, "category": "Science",
+    "id": 30,
+    "category": "Science",
     "hook": "The Eiffel Tower grows taller every summer.",
-    "beats": ["It's made of iron, and iron expands when it gets hot.", "On the hottest days, the tower can grow by up to 15 centimeters.", "In winter, it shrinks right back down."],
-    "stat": {"big": "15 cm", "label": "summer growth"},
+    "beats": [
+      "It's made of iron, and iron expands when it gets hot.",
+      "On the hottest days, the tower can grow by up to 15 centimeters.",
+      "In winter, it shrinks right back down."
+    ],
+    "stat": {
+      "big": "15 cm",
+      "label": "summer growth"
+    },
     "question": "Have you visited the Eiffel Tower?",
     "title": "The Eiffel Tower Grows in Summer",
-    "tags": ["science", "paris", "physics", "travel"],
-    "source": "Official Eiffel Tower website"
+    "tags": [
+      "science",
+      "paris",
+      "physics",
+      "travel"
+    ],
+    "source": "Official Eiffel Tower website",
+    "emoji": [
+      "🗼",
+      "🔥",
+      "📈",
+      "❄️",
+      "🇫🇷"
+    ]
   }
 ]
