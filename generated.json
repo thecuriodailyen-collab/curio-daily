@@ -37,5 +37,44 @@
     ],
     "id": 31,
     "generated": true
+  },
+  {
+    "trend": "Leonid meteor shower peaks November 17-18",
+    "category": "Space",
+    "hook": "Those Leonid shooting stars are mostly grains of sand, not rocks.",
+    "beats": [
+      "The Leonids come from Comet Tempel-Tuttle, which sheds dust along its orbit every 33 years.",
+      "Those tiny grains hit our atmosphere at about 44 miles per second, fastest of any major shower.",
+      "At that speed, the air in front of each grain superheats and glows, making the bright streak."
+    ],
+    "stat": {
+      "big": "44 mi/s",
+      "label": "Leonid dust entry speed"
+    },
+    "question": "Have you ever seen a shooting star?",
+    "title": "Shooting Stars Are Mostly Specks of Sand",
+    "tags": [
+      "leonids",
+      "meteors",
+      "space",
+      "astronomy"
+    ],
+    "source": "NASA Science (Meteors & Meteorites; Leonids), science.nasa.gov",
+    "emoji": [
+      "🌠",
+      "☄️",
+      "💨",
+      "🔥",
+      "🔭"
+    ],
+    "footage": [
+      "shooting star night",
+      "comet space",
+      "meteor streak sky",
+      "fireball night sky",
+      "stargazing night sky"
+    ],
+    "id": 32,
+    "generated": true
   }
 ]
