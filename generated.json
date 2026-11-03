@@ -76,5 +76,44 @@
     ],
     "id": 32,
     "generated": true
+  },
+  {
+    "trend": "Perseverance rover sets Mars driving record",
+    "category": "Space",
+    "hook": "Perseverance just drove a record 28 miles on Mars, where sunsets are blue.",
+    "beats": [
+      "On Earth, air scatters blue light away, so our sunsets look red and orange.",
+      "Mars is the opposite: its sky is full of fine dust that behaves differently.",
+      "The dust turns the daytime sky butterscotch, but the glow around the setting sun looks blue."
+    ],
+    "stat": {
+      "big": "Blue",
+      "label": "Color of Mars sunsets"
+    },
+    "question": "Would you watch a Mars sunset?",
+    "title": "Sunsets on Mars Are Blue, Not Red",
+    "tags": [
+      "mars",
+      "perseverance",
+      "space",
+      "sunset"
+    ],
+    "source": "NASA Science (Mars Exploration Program, rover sunset images)",
+    "emoji": [
+      "🌅",
+      "🌍",
+      "🌫️",
+      "🔵",
+      "🤔"
+    ],
+    "footage": [
+      "mars surface",
+      "sunset over ocean",
+      "dust storm desert",
+      "blue sky twilight",
+      "sunset silhouette"
+    ],
+    "id": 33,
+    "generated": true
   }
 ]
