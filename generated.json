@@ -115,5 +115,44 @@
     ],
     "id": 33,
     "generated": true
+  },
+  {
+    "trend": "Voyager 1 hits one light-day milestone",
+    "category": "Space",
+    "hook": "Voyager 1 is so far away that a message takes a full day.",
+    "beats": [
+      "On November 18, the probe will be 16.1 billion miles away, one full light-day.",
+      "Radio signals travel at light speed, so a command takes 24 hours to arrive.",
+      "Its reply takes another day. After 49 years, it has covered just 0.0027% of the way to Proxima Centauri."
+    ],
+    "stat": {
+      "big": "24 hours",
+      "label": "one-way signal delay"
+    },
+    "question": "Would you wait 2 days for a text reply?",
+    "title": "Voyager 1 Is So Far, Messages Take a Whole Day",
+    "tags": [
+      "voyager",
+      "space",
+      "nasa",
+      "lightday"
+    ],
+    "source": "NASA Science (Night Sky Notes) and NASA JPL Voyager mission",
+    "emoji": [
+      "🛰️",
+      "📏",
+      "📡",
+      "⏳",
+      "💬"
+    ],
+    "footage": [
+      "spacecraft in space",
+      "starry night sky",
+      "satellite dish antenna",
+      "clock time lapse",
+      "smartphone texting"
+    ],
+    "id": 34,
+    "generated": true
   }
 ]
