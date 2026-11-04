@@ -154,5 +154,44 @@
     ],
     "id": 34,
     "generated": true
+  },
+  {
+    "trend": "Taurid fireballs peak this week",
+    "category": "Space",
+    "hook": "Tonight's Taurid fireballs come from a comet that circles the Sun every 3.3 years.",
+    "beats": [
+      "That comet is Encke, and NASA lists its 3.3-year orbit as the shortest of any known comet.",
+      "Each trip near the Sun, its ice warms up and sheds dust and gravel along its path.",
+      "Every autumn, Earth crosses that trail, and bits hit our air at about 17 miles per second."
+    ],
+    "stat": {
+      "big": "3.3 years",
+      "label": "Comet Encke's trip around the Sun"
+    },
+    "question": "Have you ever seen a real fireball?",
+    "title": "Tonight's Taurid Fireballs Come From a 3.3-Year Comet",
+    "tags": [
+      "taurids",
+      "comet",
+      "meteors",
+      "astronomy"
+    ],
+    "source": "NASA Solar System Exploration (2P/Encke) and Britannica (Encke's Comet)",
+    "emoji": [
+      "☄️",
+      "🪐",
+      "🌡️",
+      "🌍",
+      "🔭"
+    ],
+    "footage": [
+      "meteor night sky",
+      "comet space",
+      "ice melting sun",
+      "earth from space",
+      "starry night sky"
+    ],
+    "id": 35,
+    "generated": true
   }
 ]
