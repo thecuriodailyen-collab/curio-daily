@@ -193,5 +193,44 @@
     ],
     "id": 35,
     "generated": true
+  },
+  {
+    "trend": "First supermoon since January, November 24",
+    "category": "Space",
+    "hook": "Before this month's supermoon: the Moon is slowly escaping Earth, about 1.5 inches every year.",
+    "beats": [
+      "Mirrors left by Apollo astronauts reflect lasers, so scientists measure the Moon's distance to within millimeters.",
+      "A supermoon happens when the full Moon reaches the closest point of its oval orbit.",
+      "Ocean tides steal Earth's spin energy and pass it to the Moon, pushing it outward."
+    ],
+    "stat": {
+      "big": "3.8 cm",
+      "label": "Moon's yearly drift away"
+    },
+    "question": "Will you go out and watch the supermoon?",
+    "title": "The Moon Is Slowly Drifting Away From Earth",
+    "tags": [
+      "moon",
+      "supermoon",
+      "space",
+      "astronomy"
+    ],
+    "source": "NASA (Apollo lunar laser ranging results; NASA Science, What's Up November 2026)",
+    "emoji": [
+      "🌕",
+      "🔦",
+      "🌊",
+      "🌍",
+      "👀"
+    ],
+    "footage": [
+      "full moon night",
+      "laser beam light",
+      "ocean waves tide",
+      "earth from space",
+      "moon rising sky"
+    ],
+    "id": 36,
+    "generated": true
   }
 ]
