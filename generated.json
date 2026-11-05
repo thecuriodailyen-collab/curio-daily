@@ -232,5 +232,44 @@
     ],
     "id": 36,
     "generated": true
+  },
+  {
+    "trend": "Canadian astronaut spacewalk on the space station",
+    "category": "Space",
+    "hook": "Today's spacewalkers on the space station see 16 sunrises every single day.",
+    "beats": [
+      "The International Space Station zips around Earth at about 17,500 miles per hour.",
+      "That speed lets it circle the whole planet roughly every 90 minutes.",
+      "Each lap passes through one sunrise and one sunset, so a day lasts only 90 minutes of light and dark."
+    ],
+    "stat": {
+      "big": "16",
+      "label": "sunrises per day in orbit"
+    },
+    "question": "Could you sleep with 16 sunrises a day?",
+    "title": "Astronauts See 16 Sunrises Every Day",
+    "tags": [
+      "space",
+      "astronaut",
+      "spacewalk",
+      "orbit"
+    ],
+    "source": "NASA (International Space Station facts)",
+    "emoji": [
+      "🌅",
+      "🚀",
+      "🌍",
+      "🌇",
+      "😴"
+    ],
+    "footage": [
+      "sunrise from space",
+      "space station orbit",
+      "earth from orbit",
+      "sunset over earth",
+      "astronaut floating"
+    ],
+    "id": 37,
+    "generated": true
   }
 ]
