@@ -271,5 +271,44 @@
     ],
     "id": 37,
     "generated": true
+  },
+  {
+    "trend": "Moon meets Venus in the sky Nov 7",
+    "category": "Space",
+    "hook": "Venus is so bright you can spot it in broad daylight.",
+    "beats": [
+      "Venus is wrapped in thick clouds of sulfuric acid that act like a giant mirror.",
+      "Those clouds bounce back roughly 70 percent of the sunlight that hits them.",
+      "Earth reflects only about 30 percent, so Venus outshines every star and planet."
+    ],
+    "stat": {
+      "big": "70%",
+      "label": "of sunlight Venus reflects"
+    },
+    "question": "Have you ever spotted Venus in daylight?",
+    "title": "Why You Can See Venus in Broad Daylight",
+    "tags": [
+      "venus",
+      "space",
+      "moon",
+      "planets"
+    ],
+    "source": "NASA Science, Venus Facts and Solar System Exploration",
+    "emoji": [
+      "🌟",
+      "☁️",
+      "🪞",
+      "🌍",
+      "🔭"
+    ],
+    "footage": [
+      "venus planet space",
+      "thick clouds sky",
+      "mirror reflecting sunlight",
+      "earth from space",
+      "crescent moon sky"
+    ],
+    "id": 38,
+    "generated": true
   }
 ]
