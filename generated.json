@@ -349,5 +349,44 @@
     ],
     "id": 39,
     "generated": true
+  },
+  {
+    "trend": "Hera probe visits NASA's DART asteroid",
+    "category": "Space",
+    "hook": "Humans once bumped an asteroid and shortened its orbit by 32 minutes.",
+    "beats": [
+      "NASA's DART spacecraft hit the small moonlet Dimorphos at about 14,000 miles per hour in 2022.",
+      "Its orbit around the bigger asteroid shrank from 11 hours 55 minutes to about 11 hours 23.",
+      "Rock blasted off the surface acted like a rocket, giving extra push beyond the crash itself."
+    ],
+    "stat": {
+      "big": "32 min",
+      "label": "Orbit shortened by DART"
+    },
+    "question": "Should we test this on another asteroid?",
+    "title": "We Changed an Asteroid's Orbit by 32 Minutes",
+    "tags": [
+      "asteroid",
+      "hera",
+      "nasa",
+      "space"
+    ],
+    "source": "NASA DART mission (nasa.gov/planetary-defense-dart)",
+    "emoji": [
+      "☄️",
+      "🚀",
+      "🔄",
+      "🪨",
+      "🤔"
+    ],
+    "footage": [
+      "asteroid space",
+      "rocket launch",
+      "planet orbit space",
+      "rocky asteroid surface",
+      "night sky stars"
+    ],
+    "id": 40,
+    "generated": true
   }
 ]
