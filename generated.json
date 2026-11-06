@@ -310,5 +310,44 @@
     ],
     "id": 38,
     "generated": true
+  },
+  {
+    "trend": "NASA exploring a rescue plan for Hubble",
+    "category": "Space",
+    "hook": "As NASA plans to save Hubble, remember it launched blurry from a hair-thin mistake.",
+    "beats": [
+      "Hubble's main mirror was ground too flat by about one fiftieth of a human hair.",
+      "That tiny error made light focus in the wrong spots, so its first images came back fuzzy.",
+      "In 1993, astronauts fitted Hubble with corrective mirrors, basically eyeglasses for a telescope."
+    ],
+    "stat": {
+      "big": "1/50",
+      "label": "of a hair's width"
+    },
+    "question": "What's the smallest mistake that caused you big trouble?",
+    "title": "Hubble Launched Blurry From a Hair-Thin Mistake",
+    "tags": [
+      "hubble",
+      "space",
+      "nasa",
+      "telescope"
+    ],
+    "source": "NASA Science (Hubble Optics) and Smithsonian National Air and Space Museum",
+    "emoji": [
+      "🔭",
+      "🪞",
+      "🌫️",
+      "👨‍🚀",
+      "💬"
+    ],
+    "footage": [
+      "space telescope orbit",
+      "mirror reflection close",
+      "blurry lights",
+      "astronaut spacewalk",
+      "starry night sky"
+    ],
+    "id": 39,
+    "generated": true
   }
 ]
