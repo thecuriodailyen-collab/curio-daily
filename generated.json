@@ -427,5 +427,44 @@
     ],
     "id": 41,
     "generated": true
+  },
+  {
+    "trend": "Marie Curie's birthday, November 7",
+    "category": "Science",
+    "hook": "Marie Curie was born on this day, and her notebooks are still radioactive.",
+    "beats": [
+      "Her lab notebooks are contaminated with radium-226, which has a half-life of about 1,600 years.",
+      "A half-life is how long half the atoms take to decay, so the glow fades very slowly.",
+      "Today the notebooks sit in lead-lined boxes in Paris, and visitors must sign a waiver."
+    ],
+    "stat": {
+      "big": "1,600 yrs",
+      "label": "radium-226 half-life"
+    },
+    "question": "Would you sign the waiver to read them?",
+    "title": "Marie Curie's Notebooks Are Still Radioactive Today",
+    "tags": [
+      "curie",
+      "radioactive",
+      "science",
+      "birthday"
+    ],
+    "source": "Bibliothèque nationale de France, Musée Curie, Britannica",
+    "emoji": [
+      "🎂",
+      "📓",
+      "⏳",
+      "🔒",
+      "🤔"
+    ],
+    "footage": [
+      "old handwritten notebook",
+      "laboratory glassware",
+      "hourglass sand",
+      "metal vault door",
+      "library bookshelves"
+    ],
+    "id": 42,
+    "generated": true
   }
 ]
