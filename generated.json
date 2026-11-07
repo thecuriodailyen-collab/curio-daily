@@ -388,5 +388,44 @@
     ],
     "id": 40,
     "generated": true
+  },
+  {
+    "trend": "Mars and Jupiter pair up before dawn",
+    "category": "Space",
+    "hook": "Mars and Jupiter look like neighbors, yet sit 370 million miles apart.",
+    "beats": [
+      "Astronomers call it a conjunction. It's only a line-of-sight trick, based on where Earth sits.",
+      "This month, Mars is about 121 million miles from us. Jupiter is about 489 million.",
+      "Jupiter still outshines Mars because it is far larger, even though it's roughly four times farther."
+    ],
+    "stat": {
+      "big": "370M mi",
+      "label": "gap between Mars and Jupiter"
+    },
+    "question": "Will you wake up early to see them?",
+    "title": "Mars and Jupiter Look Close. They're 370 Million Miles Apart",
+    "tags": [
+      "space",
+      "planets",
+      "conjunction",
+      "marsjupiter"
+    ],
+    "source": "NASA Science, What's Up: November 2026 Skywatching Tips (science.nasa.gov)",
+    "emoji": [
+      "🪐",
+      "👀",
+      "📏",
+      "✨",
+      "🌅"
+    ],
+    "footage": [
+      "planets night sky",
+      "stars time lapse",
+      "solar system animation",
+      "jupiter planet space",
+      "sunrise sky dawn"
+    ],
+    "id": 41,
+    "generated": true
   }
 ]
