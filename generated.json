@@ -466,5 +466,44 @@
     ],
     "id": 42,
     "generated": true
+  },
+  {
+    "trend": "Canadian astronaut's ISS spacewalk with Canadarm2",
+    "category": "Technology",
+    "hook": "This week's spacewalk used a Canadian robot arm that walks like an inchworm.",
+    "beats": [
+      "Canadarm2 has a grabbing hand on each end, so either end can lock onto the station.",
+      "It flips end over end between anchor points, so it can reach almost anywhere on the station.",
+      "It can move 116,000 kilograms in orbit, yet on Earth it couldn't lift its own weight."
+    ],
+    "stat": {
+      "big": "116,000 kg",
+      "label": "Max load it can handle"
+    },
+    "question": "Would you trust a robot arm with your spaceship?",
+    "title": "The Canadian Robot Arm That Walks Across the Space Station",
+    "tags": [
+      "canadarm2",
+      "spacewalk",
+      "robotics",
+      "space"
+    ],
+    "source": "Canadian Space Agency, 'About Canadarm2' (asc-csa.gc.ca)",
+    "emoji": [
+      "🦾",
+      "🤝",
+      "🐛",
+      "🚌",
+      "🚀"
+    ],
+    "footage": [
+      "space station robotic arm",
+      "astronaut spacewalk",
+      "inchworm crawling leaf",
+      "yellow school buses",
+      "rocket launch"
+    ],
+    "id": 43,
+    "generated": true
   }
 ]
