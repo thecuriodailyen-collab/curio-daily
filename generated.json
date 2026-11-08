@@ -505,5 +505,44 @@
     ],
     "id": 43,
     "generated": true
+  },
+  {
+    "trend": "Super Beaver Moon on November 24",
+    "category": "Animals",
+    "hook": "Before the Beaver Moon rises, meet beavers who built a dam visible from space.",
+    "beats": [
+      "The biggest known beaver dam sits in Wood Buffalo National Park, in northern Canada.",
+      "It's about 800 meters long, roughly seven football fields, and satellites can spot it.",
+      "Several generations of beavers built it, and it didn't exist before the 1980s."
+    ],
+    "stat": {
+      "big": "800 m",
+      "label": "length of the giant dam"
+    },
+    "question": "Would you hike days to see it?",
+    "title": "The Beaver Dam So Big Satellites Can See It",
+    "tags": [
+      "beaver",
+      "beavermoon",
+      "canada",
+      "wildlife"
+    ],
+    "source": "NASA Earth Observatory and Parks Canada (Wood Buffalo National Park)",
+    "emoji": [
+      "🦫",
+      "🌲",
+      "📏",
+      "🛰️",
+      "🌕"
+    ],
+    "footage": [
+      "beaver swimming",
+      "northern forest wetland",
+      "beaver dam water",
+      "satellite earth orbit",
+      "full moon night"
+    ],
+    "id": 44,
+    "generated": true
   }
 ]
