@@ -583,5 +583,44 @@
     ],
     "id": 45,
     "generated": true
+  },
+  {
+    "trend": "NASA Dragonfly Titan 'send your name' campaign",
+    "category": "Space",
+    "hook": "Flying is far easier on Saturn's moon Titan than it is on Earth.",
+    "beats": [
+      "Titan's air is about four times denser than the air we breathe here.",
+      "Its gravity is only about one-seventh of Earth's, so much less lift is needed.",
+      "That's why NASA's eight-rotor Dragonfly drone will fly across Titan after arriving in 2034."
+    ],
+    "stat": {
+      "big": "4x",
+      "label": "denser air than Earth"
+    },
+    "question": "Would you take a flight over Titan?",
+    "title": "Why Flying Is Easier on Saturn's Moon Titan",
+    "tags": [
+      "titan",
+      "dragonfly",
+      "nasa",
+      "saturn"
+    ],
+    "source": "NASA Science – Dragonfly mission and Titan facts (science.nasa.gov)",
+    "emoji": [
+      "🪐",
+      "🌫️",
+      "⚖️",
+      "🚁",
+      "🤔"
+    ],
+    "footage": [
+      "saturn rings space",
+      "thick orange haze",
+      "astronaut floating gravity",
+      "drone flying propellers",
+      "night sky stars"
+    ],
+    "id": 46,
+    "generated": true
   }
 ]
