@@ -544,5 +544,44 @@
     ],
     "id": 44,
     "generated": true
+  },
+  {
+    "trend": "Vulcan and Starship launches this Friday",
+    "category": "Space",
+    "hook": "Before this Friday's rocket launches even start, they already get a free 900 mph boost.",
+    "beats": [
+      "Earth spins toward the east, so rockets launched east add the planet's spin to their speed.",
+      "At Florida's latitude, the ground is already moving about 900 miles per hour.",
+      "The boost is biggest at the equator, about 1,000 mph, and it saves a lot of fuel."
+    ],
+    "stat": {
+      "big": "900 mph",
+      "label": "free speed from Earth's spin"
+    },
+    "question": "Would you ride a rocket launch? Tell us why!",
+    "title": "Rockets Get a Free 900 mph Boost From Earth",
+    "tags": [
+      "rockets",
+      "starship",
+      "launch",
+      "physics"
+    ],
+    "source": "NASA (Earth's rotation and launch site selection) and Britannica",
+    "emoji": [
+      "🚀",
+      "🌍",
+      "🌴",
+      "⛽",
+      "🤔"
+    ],
+    "footage": [
+      "rocket launch",
+      "earth rotating space",
+      "florida beach coast",
+      "rocket engine fire",
+      "rocket liftoff night"
+    ],
+    "id": 45,
+    "generated": true
   }
 ]
