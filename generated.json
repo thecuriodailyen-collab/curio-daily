@@ -622,5 +622,44 @@
     ],
     "id": 46,
     "generated": true
+  },
+  {
+    "trend": "Thanksgiving dinner is 16 days away",
+    "category": "Food",
+    "hook": "Your Thanksgiving cranberries float, because each berry is filled with air.",
+    "beats": [
+      "Inside every cranberry are four tiny hollow air pockets, so the berry floats in water.",
+      "Growers flood their fields at harvest, and the loosened berries pop up into a red sea.",
+      "The vines actually grow on dry, sandy ground, not underwater. The flood is only for harvest."
+    ],
+    "stat": {
+      "big": "4",
+      "label": "air pockets in each berry"
+    },
+    "question": "Did you know cranberries grow on dry land?",
+    "title": "Why Thanksgiving Cranberries Float on Water",
+    "tags": [
+      "cranberry",
+      "thanksgiving",
+      "food",
+      "harvest"
+    ],
+    "source": "UMass Amherst Cranberry Station / Britannica",
+    "emoji": [
+      "🍒",
+      "💨",
+      "🌊",
+      "🌱",
+      "🦃"
+    ],
+    "footage": [
+      "cranberries floating water",
+      "cranberry closeup",
+      "cranberry bog harvest",
+      "cranberry vines field",
+      "thanksgiving dinner table"
+    ],
+    "id": 47,
+    "generated": true
   }
 ]
