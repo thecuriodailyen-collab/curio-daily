@@ -661,5 +661,44 @@
     ],
     "id": 47,
     "generated": true
+  },
+  {
+    "trend": "Leonid meteor shower peaks next week",
+    "category": "Space",
+    "hook": "In 1966, the Leonid meteor shower dropped thousands of meteors every minute.",
+    "beats": [
+      "A small comet, Tempel-Tuttle, leaves a trail of dust and orbits the Sun every 33 years.",
+      "Every 33 years or so, Earth can plow through a thick dust trail, and a storm erupts.",
+      "The grains hit our air at 44 miles per second, so they glow very bright."
+    ],
+    "stat": {
+      "big": "33 years",
+      "label": "Comet's orbit, storm cycle"
+    },
+    "question": "Will you watch the Leonids next week?",
+    "title": "The Meteor Shower That Rained Thousands a Minute",
+    "tags": [
+      "leonids",
+      "meteors",
+      "comet",
+      "space"
+    ],
+    "source": "NASA Science: Leonids meteor shower",
+    "emoji": [
+      "☄️",
+      "🌌",
+      "🔁",
+      "⚡",
+      "👀"
+    ],
+    "footage": [
+      "meteor shower night",
+      "comet in space",
+      "night sky stars",
+      "fireball night sky",
+      "stargazing night sky"
+    ],
+    "id": 48,
+    "generated": true
   }
 ]
