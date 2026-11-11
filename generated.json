@@ -700,5 +700,44 @@
     ],
     "id": 48,
     "generated": true
+  },
+  {
+    "trend": "Dune movies returning to theaters Nov 13",
+    "category": "Nature",
+    "hook": "Dune is back in theaters, and real sand dunes really do boom.",
+    "beats": [
+      "When sand slides down a dune's steep face, the dry grains shake together.",
+      "Their vibration traps and builds up sound inside the loose, dry top layer.",
+      "The result is a deep bass hum, and it has been heard at about 40 desert sites."
+    ],
+    "stat": {
+      "big": "70-105 Hz",
+      "label": "pitch of a booming dune"
+    },
+    "question": "Would you climb a dune to hear it?",
+    "title": "Real Sand Dunes Can Sing Like a Bass Guitar",
+    "tags": [
+      "dune",
+      "sand",
+      "desert",
+      "sound"
+    ],
+    "source": "Annual Review of Earth and Planetary Sciences, 'Booming Sand Dunes' (Caltech/UCLA)",
+    "emoji": [
+      "🏜️",
+      "⏬",
+      "🔊",
+      "🎸",
+      "❓"
+    ],
+    "footage": [
+      "sand dune desert",
+      "sand sliding dune",
+      "sand grains closeup",
+      "bass guitar strings",
+      "desert dunes sunset"
+    ],
+    "id": 49,
+    "generated": true
   }
 ]
