@@ -739,5 +739,44 @@
     ],
     "id": 49,
     "generated": true
+  },
+  {
+    "trend": "NASA ESCAPADE Mars probes' Earth flybys",
+    "category": "Space",
+    "hook": "NASA's Mars probes just borrowed speed from Earth using only gravity.",
+    "beats": [
+      "When a probe flies past a planet, both pull on each other, but only the probe really moves.",
+      "The probe borrows a tiny bit of the planet's momentum, as Earth circles the Sun at 18 miles per second.",
+      "Juno's rocket was too weak to reach Jupiter, so an Earth flyby gave it the missing push."
+    ],
+    "stat": {
+      "big": "18 mi/sec",
+      "label": "Earth's speed around the Sun"
+    },
+    "question": "Would you ride a gravity slingshot to Mars?",
+    "title": "How Spacecraft Steal Speed From Planets for Free",
+    "tags": [
+      "gravity",
+      "spacecraft",
+      "mars",
+      "escapade"
+    ],
+    "source": "NASA Science (Juno mission page and ESCAPADE flyby news, Nov 2026)",
+    "emoji": [
+      "🚀",
+      "🌍",
+      "🪐",
+      "🛰️",
+      "🤔"
+    ],
+    "footage": [
+      "spacecraft flying past earth",
+      "earth orbiting sun",
+      "planet gravity space",
+      "jupiter planet space",
+      "mars planet surface"
+    ],
+    "id": 50,
+    "generated": true
   }
 ]
