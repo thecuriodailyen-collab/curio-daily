@@ -778,5 +778,44 @@
     ],
     "id": 50,
     "generated": true
+  },
+  {
+    "trend": "November 24 Beaver Supermoon",
+    "category": "Space",
+    "hook": "This month's supermoon isn't rare: one in four full moons is super.",
+    "beats": [
+      "The Moon's orbit is an oval, not a circle, so its distance keeps changing.",
+      "Every month it swings from about 225,000 miles away to about 252,000 miles.",
+      "At its closest, a full Moon looks up to 14% bigger and 30% brighter."
+    ],
+    "stat": {
+      "big": "1 in 4",
+      "label": "full moons are supermoons"
+    },
+    "question": "Could you tell a supermoon from a normal one?",
+    "title": "Supermoons Aren't Rare: 1 in 4 Full Moons Is One",
+    "tags": [
+      "supermoon",
+      "moon",
+      "astronomy",
+      "space"
+    ],
+    "source": "NASA Science (Super Blue Moons: Your Questions Answered) and Britannica",
+    "emoji": [
+      "🌕",
+      "🪐",
+      "📏",
+      "✨",
+      "🤔"
+    ],
+    "footage": [
+      "full moon night",
+      "moon rising sky",
+      "orbit planet animation",
+      "bright moon clouds",
+      "person looking sky"
+    ],
+    "id": 51,
+    "generated": true
   }
 ]
