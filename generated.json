@@ -817,5 +817,44 @@
     ],
     "id": 51,
     "generated": true
+  },
+  {
+    "trend": "Space Shuttle Endeavour's new LA museum opening",
+    "category": "History",
+    "hook": "Space Shuttle Endeavour, opening in LA, was named by schoolkids after an 1768 ship.",
+    "beats": [
+      "NASA ran a national naming contest for students, and about 6,000 schools took part.",
+      "About a third picked Endeavour: Captain Cook's ship, which sailed to Tahiti to watch Venus cross the Sun.",
+      "The shuttle flew 25 missions and carried a piece of the old ship's wood in its cockpit."
+    ],
+    "stat": {
+      "big": "6,000",
+      "label": "schools in naming contest"
+    },
+    "question": "What would you have named a space shuttle?",
+    "title": "The Space Shuttle That Kids Named After a Pirate-Era Ship",
+    "tags": [
+      "spaceshuttle",
+      "endeavour",
+      "nasa",
+      "museum"
+    ],
+    "source": "NASA / Space.com / California Science Center",
+    "emoji": [
+      "🚀",
+      "🏫",
+      "⛵",
+      "🪵",
+      "💭"
+    ],
+    "footage": [
+      "space shuttle launch",
+      "school children classroom",
+      "old sailing ship",
+      "wooden ship deck",
+      "night sky stars"
+    ],
+    "id": 52,
+    "generated": true
   }
 ]
