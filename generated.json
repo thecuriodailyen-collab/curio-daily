@@ -895,5 +895,44 @@
     ],
     "id": 53,
     "generated": true
+  },
+  {
+    "trend": "Leonid meteor shower peaks November 17-18",
+    "category": "Space",
+    "hook": "This week's Leonid meteors hit Earth at 44 miles per second.",
+    "beats": [
+      "Most comets circle the Sun in the same direction as Earth. Comet Tempel-Tuttle goes the opposite way.",
+      "So Earth meets its dust head-on, like cars crashing on opposite lanes, and the speeds add up.",
+      "Grains as small as sand then hit our air at about 158,000 miles per hour and glow."
+    ],
+    "stat": {
+      "big": "44 mi/s",
+      "label": "Leonid meteor speed"
+    },
+    "question": "Will you watch the Leonids this week?",
+    "title": "Leonid Meteors Hit Earth Head-On at 44 Miles a Second",
+    "tags": [
+      "leonids",
+      "meteors",
+      "comet",
+      "astronomy"
+    ],
+    "source": "NASA (Leonids meteor shower and Comet 55P/Tempel-Tuttle)",
+    "emoji": [
+      "☄️",
+      "🔄",
+      "💥",
+      "🌠",
+      "👀"
+    ],
+    "footage": [
+      "meteor shower night",
+      "comet in space",
+      "cars head-on road",
+      "shooting star sky",
+      "stargazing night sky"
+    ],
+    "id": 54,
+    "generated": true
   }
 ]
