@@ -856,5 +856,44 @@
     ],
     "id": 52,
     "generated": true
+  },
+  {
+    "trend": "The Cat in the Hat movie in theaters",
+    "category": "Language",
+    "hook": "The Cat in the Hat, now in theaters, uses just 236 different words.",
+    "beats": [
+      "A publisher challenged Dr. Seuss to write a book first-graders couldn't put down.",
+      "He had to use a beginner word list, and it took him a year and a half.",
+      "Frustrated, he reportedly built the story on the first two rhyming words: cat and hat."
+    ],
+    "stat": {
+      "big": "236",
+      "label": "different words in the whole book"
+    },
+    "question": "Could you write a story with 236 words?",
+    "title": "The Cat in the Hat Uses Only 236 Different Words",
+    "tags": [
+      "drseuss",
+      "books",
+      "movies",
+      "reading"
+    ],
+    "source": "NPR (Fifty Years of The Cat in the Hat); Seussville Educators Guide; Britannica",
+    "emoji": [
+      "🐱",
+      "📚",
+      "⏳",
+      "🎩",
+      "✍️"
+    ],
+    "footage": [
+      "children reading book",
+      "open picture book",
+      "hourglass sand",
+      "red striped hat",
+      "pencil writing paper"
+    ],
+    "id": 53,
+    "generated": true
   }
 ]
