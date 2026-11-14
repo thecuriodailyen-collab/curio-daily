@@ -934,5 +934,44 @@
     ],
     "id": 54,
     "generated": true
+  },
+  {
+    "trend": "Mariner 9 Mars arrival anniversary, Nov 14",
+    "category": "Space",
+    "hook": "A spacecraft reached Mars in 1971 and saw only four volcano tops.",
+    "beats": [
+      "Mariner 9 became the first spacecraft to orbit another planet, arriving November 14, 1971.",
+      "A planet-wide dust storm hid nearly everything. Only the summits of four giant volcanoes stuck out.",
+      "NASA reprogrammed it to wait. As the dust cleared, Olympus Mons, the tallest known volcano in our solar system, appeared."
+    ],
+    "stat": {
+      "big": "4",
+      "label": "volcano peaks above the dust"
+    },
+    "question": "Would you have waited out the storm?",
+    "title": "The Mars Storm That Hid Everything but Four Volcanoes",
+    "tags": [
+      "mars",
+      "volcano",
+      "nasa",
+      "mariner9"
+    ],
+    "source": "NASA (NSSDCA Mariner 9 page and NASA History)",
+    "emoji": [
+      "🌋",
+      "🛰️",
+      "🌪️",
+      "⏳",
+      "🤔"
+    ],
+    "footage": [
+      "volcano summit clouds",
+      "spacecraft orbiting planet",
+      "dust storm desert",
+      "dust settling slowly",
+      "red planet mars"
+    ],
+    "id": 55,
+    "generated": true
   }
 ]
