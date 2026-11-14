@@ -973,5 +973,44 @@
     ],
     "id": 55,
     "generated": true
+  },
+  {
+    "trend": "NASA's 2026 Antarctic ozone hole report",
+    "category": "Science",
+    "hook": "Earth's entire ozone layer would be only three dimes thick if squashed.",
+    "beats": [
+      "Scientists measure ozone in Dobson units. One hundred units makes a layer about 1 millimeter thick.",
+      "Normal ozone is around 300 units, so all of it squeezed to sea level makes about 3 millimeters.",
+      "The Antarctic 'hole' is where ozone drops below 220 units, and NASA says the layer is healing."
+    ],
+    "stat": {
+      "big": "3 mm",
+      "label": "Whole ozone layer, squeezed flat"
+    },
+    "question": "Did you think the ozone layer was thicker?",
+    "title": "Earth's Ozone Layer Is Only 3 Millimeters Thick",
+    "tags": [
+      "ozone",
+      "atmosphere",
+      "antarctica",
+      "earth"
+    ],
+    "source": "NASA Earth Observatory and NASA/NOAA 2026 ozone hole report",
+    "emoji": [
+      "🌍",
+      "📏",
+      "🪙",
+      "🧊",
+      "🤔"
+    ],
+    "footage": [
+      "earth from space",
+      "ruler measuring",
+      "coins stacked",
+      "antarctica ice",
+      "atmosphere clouds"
+    ],
+    "id": 56,
+    "generated": true
   }
 ]
