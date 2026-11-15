@@ -1051,5 +1051,44 @@
     ],
     "id": 57,
     "generated": true
+  },
+  {
+    "trend": "Mercury joins dawn four-planet parade this week",
+    "category": "Space",
+    "hook": "Mercury, the planet next to the Sun, has ice. Real water ice.",
+    "beats": [
+      "Mercury barely tilts, so the floors of some polar craters never get any sunlight.",
+      "Those permanent shadows stay far below freezing, even while Mercury's sunny side bakes at about 800°F.",
+      "NASA's MESSENGER spacecraft confirmed the ice, and radar from Earth had hinted at it first."
+    ],
+    "stat": {
+      "big": "800°F",
+      "label": "Mercury's sunlit daytime heat"
+    },
+    "question": "Would you have guessed Mercury had ice?",
+    "title": "The Planet Closest to the Sun Has Ice",
+    "tags": [
+      "mercury",
+      "planets",
+      "space",
+      "planetparade"
+    ],
+    "source": "NASA (MESSENGER mission, science.nasa.gov)",
+    "emoji": [
+      "🧊",
+      "🪐",
+      "🌑",
+      "🛰️",
+      "🤔"
+    ],
+    "footage": [
+      "ice crystals closeup",
+      "planet mercury space",
+      "dark crater moon",
+      "spacecraft orbiting planet",
+      "sunrise sky planets"
+    ],
+    "id": 58,
+    "generated": true
   }
 ]
