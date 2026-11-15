@@ -1012,5 +1012,44 @@
     ],
     "id": 56,
     "generated": true
+  },
+  {
+    "trend": "Beaver Supermoon rising November 24",
+    "category": "Animals",
+    "hook": "This month's Beaver Moon is named for animals with iron-armored teeth.",
+    "beats": [
+      "A beaver's front teeth have an outer enamel layer rich in iron.",
+      "Our enamel uses magnesium instead. Iron makes beaver enamel harder and more acid-resistant, even beating fluoride-treated enamel.",
+      "Beaver teeth never stop growing, so all that gnawing keeps them sharp and short."
+    ],
+    "stat": {
+      "big": "Iron",
+      "label": "in beaver tooth enamel"
+    },
+    "question": "Would you trade your teeth for beaver teeth?",
+    "title": "The Beaver Moon Is Named for Animals With Iron Teeth",
+    "tags": [
+      "beaver",
+      "teeth",
+      "supermoon",
+      "animals"
+    ],
+    "source": "Northwestern University (Science, 2015) and ACS Nano (2024)",
+    "emoji": [
+      "🦫",
+      "🦷",
+      "🧲",
+      "🌳",
+      "🌕"
+    ],
+    "footage": [
+      "beaver swimming",
+      "beaver gnawing tree",
+      "tree trunk chewed",
+      "wood chips closeup",
+      "full moon night"
+    ],
+    "id": 57,
+    "generated": true
   }
 ]
