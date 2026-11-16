@@ -1090,5 +1090,44 @@
     ],
     "id": 58,
     "generated": true
+  },
+  {
+    "trend": "Blaze Star T CrB still due to erupt",
+    "category": "Space",
+    "hook": "The 'Blaze Star' can jump 1,500 times brighter, then vanish within a week.",
+    "beats": [
+      "It's two stars: a dense white dwarf and a swollen red giant, circling each other.",
+      "The white dwarf steals gas from its partner for about 80 years.",
+      "That gas ignites in a huge blast, last seen in 1946 and in 1866."
+    ],
+    "stat": {
+      "big": "80 years",
+      "label": "between its eruptions"
+    },
+    "question": "Would you stay up all night to see it?",
+    "title": "The Blaze Star: A Star That Appears Out of Nowhere",
+    "tags": [
+      "blazestar",
+      "nova",
+      "stargazing",
+      "astronomy"
+    ],
+    "source": "Museum of Science, Boston; Schaefer, peer-reviewed astronomy papers on T CrB",
+    "emoji": [
+      "🌟",
+      "⭐",
+      "🔴",
+      "💥",
+      "🔭"
+    ],
+    "footage": [
+      "night sky stars",
+      "star galaxy space",
+      "red sun flare",
+      "explosion space",
+      "telescope night sky"
+    ],
+    "id": 59,
+    "generated": true
   }
 ]
