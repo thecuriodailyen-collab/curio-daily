@@ -1129,5 +1129,44 @@
     ],
     "id": 59,
     "generated": true
+  },
+  {
+    "trend": "Thanksgiving week turkey dinner prep",
+    "category": "Animals",
+    "hook": "Before Thanksgiving dinner, know this: wild turkeys fly up to 55 mph.",
+    "beats": [
+      "Wild turkeys are powerful fliers over short distances, and speeds up to 55 mph have been observed.",
+      "Every night they fly up into trees to sleep, safe from coyotes and bobcats.",
+      "Farm turkeys are bred so big they can't fly at all. Wild ones can."
+    ],
+    "stat": {
+      "big": "55 mph",
+      "label": "wild turkey top flight speed"
+    },
+    "question": "Did you know turkeys could fly?",
+    "title": "Wild Turkeys Can Fly 55 mph and Sleep in Trees",
+    "tags": [
+      "turkey",
+      "thanksgiving",
+      "birds",
+      "animals"
+    ],
+    "source": "Florida Fish and Wildlife Conservation Commission (myfwc.com), Wild Turkeys profile",
+    "emoji": [
+      "🦃",
+      "💨",
+      "🌳",
+      "🍗",
+      "🤔"
+    ],
+    "footage": [
+      "wild turkey flying",
+      "turkey flock forest",
+      "turkey roosting tree",
+      "turkey farm barn",
+      "turkey walking field"
+    ],
+    "id": 60,
+    "generated": true
   }
 ]
