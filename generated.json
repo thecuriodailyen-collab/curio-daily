@@ -1168,5 +1168,44 @@
     ],
     "id": 60,
     "generated": true
+  },
+  {
+    "trend": "The Hunger Games: Sunrise on the Reaping opens",
+    "category": "Nature",
+    "hook": "Hunger Games' Katniss is a real plant, and its potato-like tubers float.",
+    "beats": [
+      "Katniss is the common name of broadleaf arrowhead, a wetland plant growing across the US and southern Canada.",
+      "Its underground tubers are starchy like potatoes, and Native peoples have long used them as a staple food.",
+      "Gatherers stomped in the mud, and the tubers popped up and floated to the surface."
+    ],
+    "stat": {
+      "big": "Floats",
+      "label": "Tubers rise to surface"
+    },
+    "question": "Would you spot Katniss growing in a pond?",
+    "title": "Katniss From The Hunger Games Is a Real Plant",
+    "tags": [
+      "hungergames",
+      "plants",
+      "wetland",
+      "trivia"
+    ],
+    "source": "USDA NRCS Plant Guide: Broadleaf Arrowhead (Sagittaria latifolia)",
+    "emoji": [
+      "🏹",
+      "🌿",
+      "🥔",
+      "🦶",
+      "🤔"
+    ],
+    "footage": [
+      "arrow bow forest",
+      "marsh plants water",
+      "potatoes in soil",
+      "walking muddy water",
+      "pond reeds sunset"
+    ],
+    "id": 61,
+    "generated": true
   }
 ]
