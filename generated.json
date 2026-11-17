@@ -1207,5 +1207,44 @@
     ],
     "id": 61,
     "generated": true
+  },
+  {
+    "trend": "GTA VI launches in its Florida-style Leonida",
+    "category": "Animals",
+    "hook": "Florida's Everglades is the only place on Earth with both alligators and crocodiles.",
+    "beats": [
+      "Alligators like freshwater marshes. Crocodiles prefer salty coastal water.",
+      "In South Florida, fresh water from inland meets salt water from the ocean.",
+      "That mix makes room for both. Alligators number about 200,000 there, and crocodiles only about 2,000."
+    ],
+    "stat": {
+      "big": "1 place",
+      "label": "on Earth with both"
+    },
+    "question": "Gator or croc: which would you rather meet?",
+    "title": "The Only Place on Earth With Gators and Crocs",
+    "tags": [
+      "everglades",
+      "alligator",
+      "florida",
+      "gta6"
+    ],
+    "source": "U.S. National Park Service (Everglades National Park) / Smithsonian National Postal Museum",
+    "emoji": [
+      "🐊",
+      "💧",
+      "🌊",
+      "📊",
+      "🤔"
+    ],
+    "footage": [
+      "alligator swamp",
+      "freshwater marsh",
+      "ocean waves coast",
+      "crocodile water",
+      "alligator closeup"
+    ],
+    "id": 62,
+    "generated": true
   }
 ]
