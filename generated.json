@@ -1246,5 +1246,44 @@
     ],
     "id": 62,
     "generated": true
+  },
+  {
+    "trend": "Macy's 100th Thanksgiving Parade next week",
+    "category": "History",
+    "hook": "Macy's parade balloons used to be let go into the sky afterward.",
+    "beats": [
+      "The first parade in 1924 had live zoo animals, not balloons, borrowed from Central Park Zoo.",
+      "In 1928, helium balloons were released after the parade, and some burst high in the air.",
+      "Macy's then added slow-release valves and return addresses, so balloons floated for days and could be mailed back."
+    ],
+    "stat": {
+      "big": "100th",
+      "label": "Macy's parade this year"
+    },
+    "question": "Would you chase a free giant balloon?",
+    "title": "Macy's Parade Balloons Were Once Set Free in the Sky",
+    "tags": [
+      "thanksgiving",
+      "balloons",
+      "parade",
+      "history"
+    ],
+    "source": "Macy's official parade history (macys.com)",
+    "emoji": [
+      "🎈",
+      "🐘",
+      "🎈",
+      "✉️",
+      "🦃"
+    ],
+    "footage": [
+      "giant parade balloon",
+      "elephant zoo",
+      "helium balloons sky",
+      "balloons floating clouds",
+      "thanksgiving parade crowd"
+    ],
+    "id": 63,
+    "generated": true
   }
 ]
