@@ -1285,5 +1285,44 @@
     ],
     "id": 63,
     "generated": true
+  },
+  {
+    "trend": "Record Thanksgiving air travel",
+    "category": "Technology",
+    "hook": "Flying home for Thanksgiving? That tiny hole in your window is on purpose.",
+    "beats": [
+      "Your window is really three panes of acrylic: outer, middle, and a scratch-proof inner one.",
+      "The hole is in the middle pane, so cabin pressure pushes mainly on the outer pane.",
+      "It also lets moisture escape, which keeps the glass from fogging up at high altitude."
+    ],
+    "stat": {
+      "big": "3",
+      "label": "panes in each plane window"
+    },
+    "question": "Did you ever notice the hole?",
+    "title": "Why Your Airplane Window Has a Tiny Hole",
+    "tags": [
+      "airplane",
+      "thanksgiving",
+      "engineering",
+      "travel"
+    ],
+    "source": "Slate, quoting GKN Aerospace and Boeing engineers",
+    "emoji": [
+      "✈️",
+      "🪟",
+      "🔧",
+      "🌫️",
+      "🤔"
+    ],
+    "footage": [
+      "airplane window view",
+      "airplane cabin window",
+      "airplane wing clouds",
+      "frosted window",
+      "airport terminal travelers"
+    ],
+    "id": 64,
+    "generated": true
   }
 ]
