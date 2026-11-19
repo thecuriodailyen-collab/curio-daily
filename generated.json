@@ -1363,5 +1363,44 @@
     ],
     "id": 65,
     "generated": true
+  },
+  {
+    "trend": "Thanksgiving week and pumpkin pie season",
+    "category": "Food",
+    "hook": "Your Thanksgiving pumpkin pie is made from a giant berry.",
+    "beats": [
+      "In botany, a berry is a fleshy fruit with seeds that grows from one flower ovary.",
+      "A pumpkin fits that rule. Scientists call it a pepo, a berry with a hard rind.",
+      "Cucumbers, melons, and zucchini are pepos too. Grapes and tomatoes are true berries as well."
+    ],
+    "stat": {
+      "big": "2,702 lb",
+      "label": "heaviest pumpkin ever grown"
+    },
+    "question": "Which food did you not know was a berry?",
+    "title": "Your Thanksgiving Pumpkin Pie Is Made From a Giant Berry",
+    "tags": [
+      "pumpkin",
+      "thanksgiving",
+      "botany",
+      "berry"
+    ],
+    "source": "Royal Botanic Gardens, Kew; Encyclopaedia Britannica; Brooklyn Botanic Garden",
+    "emoji": [
+      "🎃",
+      "🌸",
+      "🥒",
+      "🍅",
+      "🥧"
+    ],
+    "footage": [
+      "pumpkin patch",
+      "flower blossom closeup",
+      "cut pumpkin seeds",
+      "cucumbers melons market",
+      "pumpkin pie table"
+    ],
+    "id": 66,
+    "generated": true
   }
 ]
