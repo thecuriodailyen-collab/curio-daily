@@ -1324,5 +1324,44 @@
     ],
     "id": 64,
     "generated": true
+  },
+  {
+    "trend": "New supernova SN 2026ahvu peaking this week",
+    "category": "Space",
+    "hook": "This week's exploding star is a ruler for measuring the universe.",
+    "beats": [
+      "A dead star called a white dwarf slowly steals gas from a nearby companion star.",
+      "At about 1.4 times the Sun's mass, it explodes, so every blast is nearly equally bright.",
+      "Dimmer blasts mean farther away. This method revealed the universe's expansion is speeding up."
+    ],
+    "stat": {
+      "big": "1.4x",
+      "label": "Sun masses triggers the blast"
+    },
+    "question": "Would you watch a supernova live?",
+    "title": "The Exploding Star Astronomers Use as a Cosmic Ruler",
+    "tags": [
+      "supernova",
+      "space",
+      "astronomy",
+      "universe"
+    ],
+    "source": "NASA / NSF NOIRLab (Type Ia supernovae as standard candles)",
+    "emoji": [
+      "💥",
+      "⭐",
+      "⚖️",
+      "🔭",
+      "🌌"
+    ],
+    "footage": [
+      "supernova explosion space",
+      "star in space",
+      "galaxy stars",
+      "telescope night sky",
+      "milky way night"
+    ],
+    "id": 65,
+    "generated": true
   }
 ]
