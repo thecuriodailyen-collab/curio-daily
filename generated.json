@@ -1402,5 +1402,44 @@
     ],
     "id": 66,
     "generated": true
+  },
+  {
+    "trend": "Saturn shines beside the Moon tonight",
+    "category": "Space",
+    "hook": "Saturn, shining near the Moon tonight, is so light it would float in water.",
+    "beats": [
+      "Saturn is mostly hydrogen and helium, the two lightest gases in the universe.",
+      "Its average density is about 0.69 grams per cubic centimeter. Water is 1.",
+      "It still has about 95 times Earth's mass, spread across roughly 760 Earths of space."
+    ],
+    "stat": {
+      "big": "0.69",
+      "label": "Saturn's density; water is 1"
+    },
+    "question": "What would you float on a giant Saturn bathtub?",
+    "title": "Saturn Is Lighter Than Water. It Would Float.",
+    "tags": [
+      "saturn",
+      "space",
+      "planets",
+      "nightsky"
+    ],
+    "source": "NASA Science: Saturn Facts (science.nasa.gov/saturn)",
+    "emoji": [
+      "🪐",
+      "🎈",
+      "💧",
+      "⚖️",
+      "🛁"
+    ],
+    "footage": [
+      "saturn planet",
+      "helium balloons floating",
+      "water pouring glass",
+      "planet rotating space",
+      "night sky moon"
+    ],
+    "id": 67,
+    "generated": true
   }
 ]
