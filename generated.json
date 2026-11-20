@@ -1441,5 +1441,44 @@
     ],
     "id": 67,
     "generated": true
+  },
+  {
+    "trend": "First black hole image independently verified",
+    "category": "Technology",
+    "hook": "The first black hole photo was too big for the internet, so it flew.",
+    "beats": [
+      "Eight telescopes recorded the black hole in April 2017, producing about five petabytes of raw data.",
+      "That pile of hard drives weighed over half a ton. Planes carried them to labs in Massachusetts and Germany.",
+      "South Pole drives were stuck all winter. No planes could leave until summer, so the final data arrived in December."
+    ],
+    "stat": {
+      "big": "5 PB",
+      "label": "raw data, shipped by plane"
+    },
+    "question": "Would you still mail hard drives today?",
+    "title": "The Black Hole Photo That Traveled by Cargo Plane",
+    "tags": [
+      "blackhole",
+      "astronomy",
+      "data",
+      "telescope"
+    ],
+    "source": "Event Horizon Telescope Collaboration (EHT) and National Science Foundation (NSF)",
+    "emoji": [
+      "🕳️",
+      "💾",
+      "✈️",
+      "🧊",
+      "❓"
+    ],
+    "footage": [
+      "black hole space",
+      "hard drives server",
+      "cargo plane airport",
+      "antarctica snow storm",
+      "radio telescope dish"
+    ],
+    "id": 68,
+    "generated": true
   }
 ]
