@@ -1519,5 +1519,44 @@
     ],
     "id": 69,
     "generated": true
+  },
+  {
+    "trend": "Voyager 1 reaches one light-day; new pulsar find",
+    "category": "Space",
+    "hook": "Voyager carries a map to Earth drawn with 14 blinking dead stars.",
+    "beats": [
+      "Pulsars are spinning dead stars that sweep beams across space, blinking like lighthouses on a steady beat.",
+      "The map shows the Sun's position among 14 pulsars, with each spin rate written in binary.",
+      "Pulsars slow down very gradually, so finders could compare spin rates and work out when the map was made."
+    ],
+    "stat": {
+      "big": "14",
+      "label": "pulsars on Earth's map"
+    },
+    "question": "Would you trust a map made of dead stars?",
+    "title": "Voyager's Map Home Is Made of 14 Spinning Dead Stars",
+    "tags": [
+      "voyager",
+      "pulsars",
+      "space",
+      "goldenrecord"
+    ],
+    "source": "NASA Science (Voyager Golden Record cover)",
+    "emoji": [
+      "🗺️",
+      "💫",
+      "🔢",
+      "⏳",
+      "🤔"
+    ],
+    "footage": [
+      "spacecraft deep space",
+      "pulsar neutron star",
+      "binary code screen",
+      "stars night sky timelapse",
+      "galaxy stars space"
+    ],
+    "id": 70,
+    "generated": true
   }
 ]
