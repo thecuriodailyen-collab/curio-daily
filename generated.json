@@ -1480,5 +1480,44 @@
     ],
     "id": 68,
     "generated": true
+  },
+  {
+    "trend": "NASA supersonic Mars helicopter blade test",
+    "category": "Space",
+    "hook": "NASA spun Mars helicopter blade tips faster than the speed of sound.",
+    "beats": [
+      "Mars air is only about 1% as dense as Earth's, so blades have little to push on.",
+      "Ingenuity flew 72 times, spinning its blades up to 2,700 rpm, far faster than Earth helicopters.",
+      "In March tests, blade tips hit Mach 1.08 without breaking, boosting lift by about 30%."
+    ],
+    "stat": {
+      "big": "1%",
+      "label": "Mars air density vs Earth"
+    },
+    "question": "Would you ride a helicopter on Mars?",
+    "title": "NASA Spun Mars Helicopter Blades Past the Speed of Sound",
+    "tags": [
+      "mars",
+      "helicopter",
+      "nasa",
+      "supersonic"
+    ],
+    "source": "NASA Jet Propulsion Laboratory (JPL)",
+    "emoji": [
+      "🚁",
+      "🪐",
+      "🌀",
+      "💥",
+      "🤔"
+    ],
+    "footage": [
+      "helicopter rotor spinning",
+      "mars surface red",
+      "helicopter blades close up",
+      "jet breaking sound barrier",
+      "red desert landscape"
+    ],
+    "id": 69,
+    "generated": true
   }
 ]
