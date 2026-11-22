@@ -1597,5 +1597,44 @@
     ],
     "id": 71,
     "generated": true
+  },
+  {
+    "trend": "NASA's $1 Million Moon Base Challenge",
+    "category": "Space",
+    "hook": "Moon dust is jagged like broken glass, and NASA's Moon Base must beat it.",
+    "beats": [
+      "Earth dust gets smoothed by wind and water. The Moon has neither, so grains stay razor-sharp.",
+      "Meteorites have pounded the surface for billions of years, grinding rock into fine, jagged powder.",
+      "Sunlight charges the grains with static, so dust clings to suits, rovers, and equipment."
+    ],
+    "stat": {
+      "big": "Billions",
+      "label": "of years of meteorite grinding"
+    },
+    "question": "Would you live on the Moon?",
+    "title": "Why Moon Dust Is Sharper Than Any Dust on Earth",
+    "tags": [
+      "moon",
+      "moonbase",
+      "nasa",
+      "space"
+    ],
+    "source": "NASA Science (Moon Dust) and NASA Kennedy lunar regolith research",
+    "emoji": [
+      "🌕",
+      "🌬️",
+      "☄️",
+      "⚡",
+      "🚀"
+    ],
+    "footage": [
+      "moon surface close",
+      "desert wind sand",
+      "meteor shower night",
+      "static electricity spark",
+      "astronaut moon walk"
+    ],
+    "id": 72,
+    "generated": true
   }
 ]
