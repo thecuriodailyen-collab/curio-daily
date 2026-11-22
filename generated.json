@@ -1558,5 +1558,44 @@
     ],
     "id": 70,
     "generated": true
+  },
+  {
+    "trend": "Hershey chocolate movie opens Thanksgiving week",
+    "category": "Nature",
+    "hook": "Every chocolate bar exists thanks to a fly the size of a pinhead.",
+    "beats": [
+      "Cacao flowers grow right out of the trunk, and only midges 1 to 3 millimeters long can pollinate them.",
+      "A single cacao tree makes thousands of flowers a year, but only a small fraction become pods.",
+      "In the end, one tree gives only about nine pounds of chocolate a year."
+    ],
+    "stat": {
+      "big": "1-3 mm",
+      "label": "size of the chocolate midge"
+    },
+    "question": "Would you still eat chocolate if you'd known this?",
+    "title": "Chocolate Only Exists Thanks to a Pinhead-Sized Fly",
+    "tags": [
+      "chocolate",
+      "hershey",
+      "midge",
+      "nature"
+    ],
+    "source": "Natural History Museum (London) and Penn State Extension",
+    "emoji": [
+      "🍫",
+      "🌸",
+      "🪰",
+      "🌳",
+      "🤔"
+    ],
+    "footage": [
+      "chocolate bar",
+      "cacao tree",
+      "tiny fly flower",
+      "cacao pods",
+      "chocolate pieces"
+    ],
+    "id": 71,
+    "generated": true
   }
 ]
