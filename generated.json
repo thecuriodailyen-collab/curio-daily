@@ -1636,5 +1636,44 @@
     ],
     "id": 72,
     "generated": true
+  },
+  {
+    "trend": "NASA Roman telescope's first images Dec 7",
+    "category": "Space",
+    "hook": "NASA's newest space telescope has a mirror built for a spy satellite.",
+    "beats": [
+      "The U.S. spy agency NRO gave NASA this 7.9-foot mirror, left over from its satellite program.",
+      "It is almost the same size as Hubble's mirror, so NASA didn't have to start from scratch.",
+      "Engineers reground it to look out at space, and the camera sees 100 times more sky than Hubble's."
+    ],
+    "stat": {
+      "big": "7.9 ft",
+      "label": "Spy-built mirror width"
+    },
+    "question": "What would you point a spy telescope at?",
+    "title": "NASA's Newest Telescope Has a Spy Satellite Mirror",
+    "tags": [
+      "telescope",
+      "space",
+      "nasa",
+      "roman"
+    ],
+    "source": "NASA (Nancy Grace Roman Space Telescope mission)",
+    "emoji": [
+      "🛰️",
+      "🪞",
+      "🔭",
+      "🌌",
+      "🤔"
+    ],
+    "footage": [
+      "satellite orbiting earth",
+      "telescope mirror",
+      "space telescope",
+      "galaxy stars",
+      "night sky stars"
+    ],
+    "id": 73,
+    "generated": true
   }
 ]
