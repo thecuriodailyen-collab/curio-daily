@@ -1714,5 +1714,44 @@
     ],
     "id": 74,
     "generated": true
+  },
+  {
+    "trend": "BepiColombo spacecraft just entered Mercury's orbit",
+    "category": "Space",
+    "hook": "On Mercury, the Sun can rise, stop, then sink back down.",
+    "beats": [
+      "Mercury spins very slowly, once every 59 Earth days, but circles the Sun in 88.",
+      "Near its closest point to the Sun, its orbital speed briefly beats its spin.",
+      "So the Sun seems to reverse, and some spots on Mercury get two sunrises in one day."
+    ],
+    "stat": {
+      "big": "59",
+      "label": "Earth days per Mercury spin"
+    },
+    "question": "Would you want a double sunrise?",
+    "title": "Mercury's Sun Rises, Stops, and Sets Backward",
+    "tags": [
+      "bepicolombo",
+      "mercury",
+      "sunrise",
+      "planets"
+    ],
+    "source": "NASA Science (Mercury) and ESA BepiColombo mission pages",
+    "emoji": [
+      "🌅",
+      "🌀",
+      "🏃",
+      "🔄",
+      "🤔"
+    ],
+    "footage": [
+      "sunrise horizon",
+      "planet spinning space",
+      "planet orbiting sun",
+      "sun rising sky",
+      "sunrise clouds"
+    ],
+    "id": 75,
+    "generated": true
   }
 ]
