@@ -1753,5 +1753,44 @@
     ],
     "id": 75,
     "generated": true
+  },
+  {
+    "trend": "NFL Thanksgiving week football games",
+    "category": "History",
+    "hook": "Thanksgiving football began in 1934 as a marketing stunt by a radio boss.",
+    "beats": [
+      "Radio owner George Richards moved his team to Detroit in 1934, but fans ignored them.",
+      "He scheduled a Thanksgiving game against the Bears to win the city's attention.",
+      "NBC aired it on 94 radio stations, and a holiday tradition was born."
+    ],
+    "stat": {
+      "big": "94",
+      "label": "radio stations aired game one"
+    },
+    "question": "Which Thanksgiving game are you watching this year?",
+    "title": "Thanksgiving Football Started as a Radio Marketing Stunt",
+    "tags": [
+      "thanksgiving",
+      "football",
+      "history",
+      "radio"
+    ],
+    "source": "Pro Football Hall of Fame: Thanksgiving and the NFL",
+    "emoji": [
+      "🏈",
+      "📻",
+      "🦃",
+      "📡",
+      "🍽️"
+    ],
+    "footage": [
+      "american football stadium",
+      "vintage radio",
+      "thanksgiving turkey dinner",
+      "radio tower",
+      "family dinner table"
+    ],
+    "id": 76,
+    "generated": true
   }
 ]
