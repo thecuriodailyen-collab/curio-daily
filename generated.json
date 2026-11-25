@@ -1831,5 +1831,44 @@
     ],
     "id": 77,
     "generated": true
+  },
+  {
+    "trend": "Record king tides hit US coasts this week",
+    "category": "Geography",
+    "hook": "King tides flood U.S. coasts, but Canada's Bay of Fundy has tides 16 meters high.",
+    "beats": [
+      "Fundy's funnel shape squeezes the incoming ocean, so the water has nowhere to go but up.",
+      "The bay also sloshes at nearly the same rhythm as the ocean tide, which boosts every cycle.",
+      "Around 160 billion tonnes of seawater flow in, more than all the world's rivers combined."
+    ],
+    "stat": {
+      "big": "160B tons",
+      "label": "water moved each tide"
+    },
+    "question": "Would you walk the ocean floor at low tide?",
+    "title": "Canada's Bay of Fundy Has the Biggest Tides on Earth",
+    "tags": [
+      "tides",
+      "kingtide",
+      "canada",
+      "geography"
+    ],
+    "source": "NOAA JetStream; Parks Canada; Guinness World Records",
+    "emoji": [
+      "🌊",
+      "🔻",
+      "🔁",
+      "💧",
+      "🥾"
+    ],
+    "footage": [
+      "ocean high tide",
+      "funnel shaped bay",
+      "tidal waves ocean",
+      "river flowing",
+      "tidal flats walking"
+    ],
+    "id": 78,
+    "generated": true
   }
 ]
