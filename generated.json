@@ -1792,5 +1792,44 @@
     ],
     "id": 76,
     "generated": true
+  },
+  {
+    "trend": "Uranus at opposition tonight, brightest of year",
+    "category": "Space",
+    "hook": "Uranus peaks tonight, and its poles get 42 years of daylight in a row.",
+    "beats": [
+      "Uranus is tipped about 98 degrees, so it basically rolls around the Sun on its side.",
+      "One trip around the Sun takes 84 Earth years, so each pole faces the Sun for half of it.",
+      "Scientists think a giant collision long ago knocked the young planet over onto its side."
+    ],
+    "stat": {
+      "big": "42 years",
+      "label": "of sunlight at each pole"
+    },
+    "question": "Would you live on a planet with 42-year nights?",
+    "title": "Uranus Has 42 Years of Daylight, Then 42 of Night",
+    "tags": [
+      "uranus",
+      "planets",
+      "space",
+      "opposition"
+    ],
+    "source": "NASA Science (Uranus facts)",
+    "emoji": [
+      "🪐",
+      "🌀",
+      "☀️",
+      "💥",
+      "🌙"
+    ],
+    "footage": [
+      "blue planet space",
+      "spinning planet space",
+      "sunrise over horizon",
+      "asteroid collision space",
+      "night sky stars"
+    ],
+    "id": 77,
+    "generated": true
   }
 ]
