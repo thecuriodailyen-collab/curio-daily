@@ -1909,5 +1909,44 @@
     ],
     "id": 79,
     "generated": true
+  },
+  {
+    "trend": "Geminid meteor shower peaks December 13–14",
+    "category": "Space",
+    "hook": "December's Geminid meteor shower comes from an asteroid, not a comet.",
+    "beats": [
+      "Its parent is 3200 Phaethon, a small space rock only about 3 miles wide.",
+      "Phaethon circles the Sun every 1.4 years, swinging in closer than Mercury ever gets.",
+      "Each December Earth crosses its dusty trail, and up to 120 fast meteors streak by hourly."
+    ],
+    "stat": {
+      "big": "1.4 years",
+      "label": "Phaethon's trip around the Sun"
+    },
+    "question": "Have you ever watched the Geminids?",
+    "title": "December's Best Meteor Shower Comes From an Asteroid",
+    "tags": [
+      "geminids",
+      "meteors",
+      "asteroid",
+      "space"
+    ],
+    "source": "NASA Science – Geminids (science.nasa.gov)",
+    "emoji": [
+      "☄️",
+      "🪨",
+      "☀️",
+      "🌠",
+      "🔭"
+    ],
+    "footage": [
+      "meteor shower night",
+      "asteroid space rock",
+      "sun solar flare",
+      "shooting stars sky",
+      "stargazing night sky"
+    ],
+    "id": 80,
+    "generated": true
   }
 ]
