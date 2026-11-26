@@ -1870,5 +1870,44 @@
     ],
     "id": 78,
     "generated": true
+  },
+  {
+    "trend": "Black Friday shopping weekend",
+    "category": "History",
+    "hook": "Before you shop Black Friday: the first barcode ever scanned was gum.",
+    "beats": [
+      "In 1974, a cashier in Troy, Ohio, scanned a 10-pack of Juicy Fruit for 67 cents.",
+      "Inventor Norman Woodland sketched Morse code in beach sand, then stretched the dots and dashes into lines.",
+      "That very pack now sits in the Smithsonian, and billions of barcodes get scanned every day."
+    ],
+    "stat": {
+      "big": "1974",
+      "label": "year of first barcode scan"
+    },
+    "question": "What's the weirdest thing you've ever scanned at checkout?",
+    "title": "The First Barcode Ever Scanned Was a Pack of Gum",
+    "tags": [
+      "blackfriday",
+      "barcode",
+      "history",
+      "shopping"
+    ],
+    "source": "Smithsonian National Museum of American History",
+    "emoji": [
+      "🛒",
+      "🍬",
+      "🏖️",
+      "🏛️",
+      "🤔"
+    ],
+    "footage": [
+      "shopping cart store",
+      "chewing gum pack",
+      "sand beach waves",
+      "museum display case",
+      "supermarket checkout scanner"
+    ],
+    "id": 79,
+    "generated": true
   }
 ]
