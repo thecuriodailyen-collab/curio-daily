@@ -1948,5 +1948,44 @@
     ],
     "id": 80,
     "generated": true
+  },
+  {
+    "trend": "Webb's new Cassiopeia A supernova image",
+    "category": "Space",
+    "hook": "Webb's new supernova photo shows an explosion whose light traveled 11,000 years.",
+    "beats": [
+      "Cassiopeia A is about 11,000 light-years away, so its light needed 11,000 years to arrive.",
+      "That light first reached Earth only about 350 years ago, around the time of Isaac Newton.",
+      "The blast's cloud of hot gas and dust has since grown about 10 light-years wide."
+    ],
+    "stat": {
+      "big": "11,000",
+      "label": "years the light traveled"
+    },
+    "question": "What would you have thought it was?",
+    "title": "Webb's New Photo: Light That Traveled 11,000 Years",
+    "tags": [
+      "supernova",
+      "webb",
+      "space",
+      "nasa"
+    ],
+    "source": "NASA / James Webb Space Telescope (Cassiopeia A, released Nov. 23, 2026)",
+    "emoji": [
+      "💥",
+      "🔭",
+      "⏳",
+      "☁️",
+      "🤔"
+    ],
+    "footage": [
+      "supernova explosion space",
+      "galaxy stars space",
+      "starry night sky",
+      "colorful nebula space",
+      "night sky stars"
+    ],
+    "id": 81,
+    "generated": true
   }
 ]
