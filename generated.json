@@ -1987,5 +1987,44 @@
     ],
     "id": 81,
     "generated": true
+  },
+  {
+    "trend": "Saturn's rings tilted nearly edge-on this week",
+    "category": "Space",
+    "hook": "Saturn's giant rings are only about 30 feet thick.",
+    "beats": [
+      "The rings stretch about 170,000 miles across, but are typically just 10 meters thick.",
+      "They're mostly water ice, from sand-grain specks to house-sized chunks, all orbiting Saturn.",
+      "From Earth, the rings look edge-on about every 14 years, and nearly vanish."
+    ],
+    "stat": {
+      "big": "30 feet",
+      "label": "typical ring thickness"
+    },
+    "question": "Would you have guessed they were that thin?",
+    "title": "Saturn's Giant Rings Are Only 30 Feet Thick",
+    "tags": [
+      "saturn",
+      "space",
+      "planets",
+      "stargazing"
+    ],
+    "source": "NASA Jet Propulsion Laboratory (JPL)",
+    "emoji": [
+      "🪐",
+      "📏",
+      "🧊",
+      "🔭",
+      "🤔"
+    ],
+    "footage": [
+      "saturn rings space",
+      "planet rings animation",
+      "ice chunks closeup",
+      "telescope night sky",
+      "starry night sky"
+    ],
+    "id": 82,
+    "generated": true
   }
 ]
