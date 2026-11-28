@@ -2026,5 +2026,44 @@
     ],
     "id": 82,
     "generated": true
+  },
+  {
+    "trend": "Europa Clipper flies past Earth December 3",
+    "category": "Space",
+    "hook": "Jupiter's moon Europa is smaller than ours, yet holds twice Earth's ocean water.",
+    "beats": [
+      "Europa is about 1,900 miles wide, smaller than Earth's Moon.",
+      "Its salty ocean is hidden under an icy shell miles thick, so we can't see it.",
+      "NASA's Europa Clipper, passing Earth now, arrives at Jupiter in 2030 to study that ocean."
+    ],
+    "stat": {
+      "big": "2x",
+      "label": "Earth's ocean water"
+    },
+    "question": "Would you dive into Europa's ocean?",
+    "title": "A Tiny Moon With Twice Earth's Ocean Water",
+    "tags": [
+      "europa",
+      "space",
+      "ocean",
+      "nasa"
+    ],
+    "source": "NASA Science (Europa Clipper mission)",
+    "emoji": [
+      "🌊",
+      "🌕",
+      "🧊",
+      "🛰️",
+      "🤿"
+    ],
+    "footage": [
+      "jupiter moon space",
+      "moon surface closeup",
+      "ice cracks frozen",
+      "spacecraft in orbit",
+      "deep ocean underwater"
+    ],
+    "id": 83,
+    "generated": true
   }
 ]
